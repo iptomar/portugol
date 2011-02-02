@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils
+END
+Values.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/Values.java
+END
+IteratorLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorLine.java
+END
+LanguageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/LanguageException.java
+END
+IteratorProgramTokens.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorProgramTokens.java
+END
+IteratorExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorExpression.java
+END
+FileManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/FileManager.java
+END
+Parentesis.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/Parentesis.java
+END
+Commentary.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/Commentary.java
+END
+IteratorString.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorString.java
+END
+IteratorElemTokens.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorElemTokens.java
+END
+CodeLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/CodeLine.java
+END
+IteratorLineTokens.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorLineTokens.java
+END
+IteratorCodeParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorCodeParams.java
+END
+IteratorArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorArray.java
+END
+IteratorProgramBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorProgramBlock.java
+END
+IteratorExpressionTokens.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Utils/IteratorExpressionTokens.java
+END

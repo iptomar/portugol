@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Parte fracionária de um número real</h1>
+<h3>Sintax</h3>
+<p class="SINTAX">inteiro frac (real numero)</p>
+<h3>Descrição</h3>
+<p>retorna a parte fracionária de um número</p>
+<h3>Exemplo</h3>
+<p class="CODE">inicio<br>
+&nbsp;&nbsp;&nbsp; real numero <br>
+&nbsp;&nbsp;&nbsp; inteiro valor<br>
+&nbsp;&nbsp;&nbsp; numero &lt;- 10.9<br>
+&nbsp;&nbsp;&nbsp; valor &lt;- <font color="#0000FF">frac</font> ( numero )<br>
+&nbsp;&nbsp;&nbsp; escrever &quot;parte fracionária(&quot; , numero , &quot;) = &quot; , valor<br>
+fim</p>
+<h3>Resultado</h3>
+<p class="MONITOR">parte fracionária(10.9) = 9</p>
+<h3>Ver também</h3>
+<p><a href="funcoes_biblioteca.html">Funções de biblioteca</a></p>
+
+</body>
+
+</html>

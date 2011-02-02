@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Raiz quadrada</h1>
+<h3>Sintax</h3>
+<p class="SINTAX">real raiz (real valor )</p>
+<h3>Descrição</h3>
+<p>calcula o valor da raiz quadrada do valor do parametro.</p>
+<h3>Exemplo</h3>
+<p class="CODE">inicio<br>
+&nbsp;&nbsp;&nbsp; real numero , valor<br>
+&nbsp;&nbsp;&nbsp; numero &lt;- 9<br>
+&nbsp;&nbsp;&nbsp; valor &lt;- <font color="#0000FF">raiz</font> ( numero )<br>
+&nbsp;&nbsp;&nbsp; escrever &quot;raiz quadrada(&quot; , numero , &quot;) = &quot; , valor<br>
+fim</p>
+<h3>Resultado</h3>
+<p class="MONITOR">raiz quadrada(9.0) = 3.0</p>
+<h3>Ver também</h3>
+<p><a href="funcoes_biblioteca.html">Funções de biblioteca</a></p>
+
+</body>
+
+</html>

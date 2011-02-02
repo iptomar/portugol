@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+<title>Portugol</title>
+<base target="principal">
+</head>
+
+<body bgcolor="#C0C0C0">
+
+<p><br>
+<b><font size="4">
+<font color="#FF0000"><a target="principal" href="home.html">
+<font color="#FF0000"><a target="principal" href="home.html">
+<font color="#FF0000">POR</font></a></font></a></font><a target="principal" href="home.html"><font color="#FFFF00">TU</font><font color="#008000">GOL</font></a></a></font></b></p>
+<p><font size="4"><b><br></b></font><a href="portugol.html">Portugol</a></p>
+<p><b>Linguagem<br>&nbsp;&nbsp; <a href="Definicao_linguagem.html">definição</a><br>Tipos de dados<br>&nbsp;&nbsp; 
+</b>&nbsp;<a href="tipo_dados_basicos.html">Básicos</a><br>
+<b>&nbsp;&nbsp;&nbsp; <a href="tipo_dados_variaveis.html">Variáveis</a><br>&nbsp;&nbsp;&nbsp;
+<a href="tipo_dados_constantes.html">Constantes</a><br>&nbsp;&nbsp;&nbsp; </b>
+<a href="tipo_dados_estruturados.html">Arrays</a><b><br>Entrada/Saída<br>&nbsp;&nbsp;&nbsp;
+</b><a href="ler.html">Ler</a><b><br>&nbsp;&nbsp;&nbsp; </b>
+<a href="escrever.html">escrever</a><b><br>Operadores<br>&nbsp;&nbsp;&nbsp; </b>
+<a href="operadores_aritmeticos.html">Aritméticos</a><b><br>&nbsp;&nbsp;&nbsp;
+</b><a href="operadores_logicos.html">Lógicos</a><b><br>&nbsp;&nbsp;&nbsp; </b>
+<a href="operadores_relacionais.html">Relacionais</a><b><br>Selecção<br>&nbsp;&nbsp;&nbsp;
+</b><a href="se.html">Se</a><b><br>&nbsp;&nbsp;&nbsp; </b>
+<a href="Escolhe.html">Escolhe</a><b><br>Repetição<br>&nbsp;&nbsp;&nbsp; </b>
+<a href="enquanto.html">Enquanto</a><b><br>&nbsp;&nbsp;&nbsp; </b>
+<a href="para.html">Para</a><b><br>&nbsp;&nbsp;&nbsp; </b><a href="repete.html">Repete</a><b><br>&nbsp;&nbsp;&nbsp;
+</b><a href="faz.html">Faz</a><b><br>Funções<br>&nbsp;&nbsp;&nbsp; </b>
+<a href="funcoes_biblioteca.html">Biblioteca</a></p>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

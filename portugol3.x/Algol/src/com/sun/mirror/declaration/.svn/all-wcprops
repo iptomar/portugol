@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration
+END
+PackageDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/PackageDeclaration.java
+END
+AnnotationMirror.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/AnnotationMirror.java
+END
+InterfaceDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/InterfaceDeclaration.java
+END
+AnnotationValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/AnnotationValue.java
+END
+EnumDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/EnumDeclaration.java
+END
+ClassDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/ClassDeclaration.java
+END
+MemberDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/MemberDeclaration.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/package.html
+END
+AnnotationTypeDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/AnnotationTypeDeclaration.java
+END
+EnumConstantDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/EnumConstantDeclaration.java
+END
+Declaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/Declaration.java
+END
+MethodDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/MethodDeclaration.java
+END
+ParameterDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/ParameterDeclaration.java
+END
+ExecutableDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/ExecutableDeclaration.java
+END
+TypeDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/TypeDeclaration.java
+END
+TypeParameterDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/TypeParameterDeclaration.java
+END
+FieldDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/FieldDeclaration.java
+END
+ConstructorDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/ConstructorDeclaration.java
+END
+AnnotationTypeElementDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/AnnotationTypeElementDeclaration.java
+END
+Modifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/declaration/Modifier.java
+END

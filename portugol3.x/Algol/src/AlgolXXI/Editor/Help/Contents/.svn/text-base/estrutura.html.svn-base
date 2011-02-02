@@ -1,0 +1,94 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+<style type="text/css">
+.style3 {
+	text-align: left;
+}
+.style4 {
+	color: #0000FF;
+}
+.style5 {
+	color: #00FF00;
+}
+</style>
+</head>
+
+<body>
+
+<h1><span lang="pt">Estruturas</span></h1>
+<h3>Sintax</h3>
+<p class="SINTAX"><font color="#0000FF"><span lang="pt">
+Estrutura </font>nome_da_estrutura<font color="#0000FF"><br/>
+tipo1 </font>item1<font color="#0000FF"><br/>
+tipo1 </font>item2<font color="#0000FF"><br/>
+...<br/>
+tipo2 </font>item3<font color="#0000FF"><br/>
+tipoN </font>itemN<font color="#0000FF"><br/>
+fim estrutura<br/>
+
+</font>
+
+</span><font color="#0000FF"></p>
+<h3>Definição</h3>
+<p class="style3">
+ 
+Até agora todos os dados que tínhamos eram armazenados em variáveis simples (carácter, 
+inteiro, real), ou então armazenávamos um conjunto de valores semelhantes em vectores 
+(arrays). <br/>
+Mas agora vamos aprender um novo tipo de dados estruturados, as estruturas. <br/>
+Uma estrutura é um conjunto de dados  relacionados, provavelmente de  tipos diferentes, 
+sendo por isso chamado de estruturas de dados heterogéneas, ao contrário dos arrays que são 
+homogéneos.  <br/>
+Às  componentes  armazenadas  dentro  de  uma  estrutura,  dá-se  o  nome  de  campo  ou  de 
+membro da estrutura. 
+<br/><br/>
+<strong>Regras</strong>:  <br/>
+  Podem-se definir estruturas de estruturas; <br/>
+  As estruturas podem ser recursivas, isto é, podem-se chamar a si mesmas; <br/>
+  Para  aceder  ao membro  yyy  da  estrutura  zzz  utiliza-se  o  operador  ponto  (.),  isto  é 
+zzz.yyy. <br/>
+<br/><br/>
+<strong>NOTA: 
+</strong> 
+Todas as variáveis da estrutura têm de ser que ser declaradas no momento de definição 
+da estrutura, pois a estrutura deixa de ser identificada fora do local de definição.  
+
+<br/><br/><strong>Exemplo</strong>: 
+ 
+Estes exemplos são a declaração de duas estruturas a estrutura pessoa com os campos 
+num. 
+A estrutura turma que tem o campo texto nome e duas estruturas a pessoa e Data. 
+
+</p>
+<h3>
+Exemplos</h3>
+
+<p class="CODE">
+<span class="style4">Estrutura </span><span class="style5">Pessoa </span>  <br/>
+  <span class="style4"><span lang="pt">&nbsp;&nbsp;&nbsp;&nbsp; </span>Inteiro
+</span>num <br/>
+  <span lang="pt">&nbsp;&nbsp;&nbsp;&nbsp; </span>Data dn <br/>
+<span class="style4">Fim </span>estrutura <br/><br/>
+Estrutura turma <br/>
+  <span class="style4"><span lang="pt">&nbsp;&nbsp;&nbsp;&nbsp; </span>Texto </span>nome <br/>
+  <span class="style5"><span lang="pt">&nbsp;&nbsp;&nbsp;&nbsp; </span>Pessoa </span>alunos [20] <br/>
+  <span lang="pt">&nbsp;&nbsp;&nbsp;&nbsp; </span>Data exames [2][3] <br/>
+<span class="style4">Fim </span>estrutura <br/>
+</p>
+	<h3>Ver também</h3>
+<ul>
+	<li><span lang="pt"><a href="tipo_dados_estruturados.html">Tipos de dados Estruturados</a></span></li>
+	<li><span lang="pt"><a href="tipo_dados_variaveis">Variáveis</a></span></li>
+	
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

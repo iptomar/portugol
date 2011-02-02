@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code
+END
+Symtab.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Symtab.java
+END
+Source.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Source.java
+END
+TypeTags.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/TypeTags.java
+END
+Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Type.java
+END
+Attribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Attribute.java
+END
+Types.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Types.java
+END
+Symbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Symbol.java
+END
+Lint.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Lint.java
+END
+Kinds.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Kinds.java
+END
+Scope.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Scope.java
+END
+Flags.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/Flags.java
+END
+BoundKind.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/code/BoundKind.java
+END

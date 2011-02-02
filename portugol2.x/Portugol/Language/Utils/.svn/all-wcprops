@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils
+END
+Values.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/Values.java
+END
+IteratorString.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/IteratorString.java
+END
+IteratorIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/IteratorIndex.java
+END
+CodeLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/CodeLine.java
+END
+LanguageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/LanguageException.java
+END
+IteratorElements.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/IteratorElements.java
+END
+IteratorArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/IteratorArray.java
+END
+IteratorCodeParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/IteratorCodeParams.java
+END
+IteratorExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/IteratorExpression.java
+END
+IteratorCodeLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/IteratorCodeLine.java
+END
+Parentesis.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/portugol/!svn/ver/126/portugol2.x/Portugol/Language/Utils/Parentesis.java
+END

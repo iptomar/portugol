@@ -1,0 +1,3 @@
+java PortugolInterpretorCodeViewer
+pause
+exit

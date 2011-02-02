@@ -1,0 +1,53 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Funções de Biblioteca</h1>
+<h2>Funções predefinidas na linguagem</h2>
+<h3>Funções sem argumentos</h3>
+<ul>
+	<li><a href="Func_aleatorio.html">aleatório</a></li>
+</ul>
+<h3>Funções com um argumentos</h3>
+<ul>
+	<li><a href="Func_Seno.html">Seno</a></li>
+	<li><a href="Func_Coseno.html">Coseno</a></li>
+	<li><a href="Func_tangente.html">Tangente</a></li>
+	<li><a href="Func_Cotangente.html">Cotangente</a></li>
+	<li><a href="Func_ArcoSeno.html">Arco Seno</a> </li>
+	<li><a href="Func_ArcoCoseno.html">Arco Coseno</a> </li>
+	<li><a href="Func_ArcoTangente.html">Arco Tangente</a> </li>
+	<li><a href="Func_ArcoCotangente.html">Arco Cotangente</a> </li>
+	<li><a href="Func_Senoh.html">Seno hiperbólico</a> </li>
+	<li><a href="Func_Cosenoh.html">Coseno hiperbólico</a> </li>
+	<li><a href="Func_Tanh.html">Tangente hiperbólico</a> </li>
+	<li><a href="Func_Ctgh.html">Cotangente hiperbólico</a> </li>
+</ul>
+
+
+<ul>
+	<li><a href="Func_exponencial.html">Exponenciação</a></li>
+	<li><a href="Func_absoluto.html">Valor Absoluto</a></li>
+	<li><a href="Func_raiz.html">Raiz Quadrada</a></li>
+	<li><a href="Func_logaritmo.html">Logaritmo Base 10</a></li>
+	<li><a href="Func_logaritmo_E.html">Logartimo Base e</a></li>
+	<li><a href="Func_Int.html">Parte inteira de um número	real</a></li>
+	<li><a href="Func_frac.html">Parte fracionária de um número real</a></li>
+	<li><a href="Func_arred.html">Arredondamento um número real</a></li>
+</ul>
+
+<h3>Funções com dois argumentos</h3>
+<ul>
+	<li><a href="Func_potencias.html">Potenciação de dois números</li>
+</ul>
+
+</body>
+
+</html>

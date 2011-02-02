@@ -1,0 +1,3 @@
+<laf-plugin>
+	<component-plugin-class>org.jvnet.substance.netbeans.NetbeansPlugin</component-plugin-class>
+</laf-plugin>

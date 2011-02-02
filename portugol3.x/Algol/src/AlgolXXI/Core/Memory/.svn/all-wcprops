@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory
+END
+SymbolData.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/SymbolData.java
+END
+DataObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/DataObject.java
+END
+SymbolManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/SymbolManager.java
+END
+SymbolArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/SymbolArray.java
+END
+Symbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/Symbol.java
+END
+SymbolStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/SymbolStructure.java
+END
+SymbolDataComplex.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/SymbolDataComplex.java
+END
+Memory.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/Memory.java
+END
+SymbolDataSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Memory/SymbolDataSimple.java
+END

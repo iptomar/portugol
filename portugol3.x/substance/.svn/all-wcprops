@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/121/portugol3.x/substance
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/portugol/!svn/ver/121/portugol3.x/substance/manifest.mf
+END
+spl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/portugol/!svn/ver/121/portugol3.x/substance/spl.txt
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/portugol/!svn/ver/121/portugol3.x/substance/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/portugol/!svn/ver/121/portugol3.x/substance/build.xml
+END

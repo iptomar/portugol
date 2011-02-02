@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Resto</h1>
+<h3>Sintax</h3>
+<p class="SINTAX">inteiro resto (inteiro div1, inteiro div2)</p>
+<h3>Descrição</h3>
+<p>retornam o valor da função exponencial ( e ^ x)</p>
+<h3>Exemplo</h3>
+<p class="CODE">inicio<br>
+&nbsp;&nbsp;&nbsp; inteiro num1 , num2 , rst , div<br>
+&nbsp;&nbsp;&nbsp; num1 := 17<br>
+&nbsp;&nbsp;&nbsp; num2 := 5<br>
+&nbsp;&nbsp;&nbsp; rst := <font color="#0000FF">resto</font> ( num1 , num2 )<br>
+&nbsp;&nbsp;&nbsp; div := num1 / num2<br>
+&nbsp;&nbsp;&nbsp; escrever &quot;\ndividendo = &quot; , num1<br>
+&nbsp;&nbsp;&nbsp; escrever &quot;\ndivisor = &quot; , num2<br>
+&nbsp;&nbsp;&nbsp; escrever &quot;\ndivisão inteira = &quot; , div<br>
+&nbsp;&nbsp;&nbsp; escrever &quot;\nresto da divisão= &quot; , rst<br>
+fim</p>
+<h3>Resultado</h3>
+<p class="MONITOR">dividendo = 17<br>
+divisor = 5<br>
+divisão inteira = 3<br>
+resto da divisão= 2</p>
+<h3>Ver também</h3>
+<p><a href="funcoes_biblioteca.html">Funções de biblioteca</a></p>
+
+</body>
+
+</html>

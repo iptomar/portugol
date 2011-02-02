@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Tangente hiperbólica</h1>
+<h3>Sintax</h3>
+<p class="SINTAX">tanh( real numero)</p>
+<h3>Descrição</h3>
+<p>retorna o valor da tangente hiperbólica de um numero</p>
+<h3>Exemplo</h3>
+<p class="CODE">inicio<br>
+&nbsp;&nbsp;&nbsp; real numero, valor<br>
+&nbsp;&nbsp;&nbsp; numero &lt;- 0.5<br>
+&nbsp;&nbsp;&nbsp; valor &lt;- <font color="#0000FF">tanh</font> ( numero) <br>
+&nbsp;&nbsp;&nbsp; escrever &quot;tangente hiperbólico(&quot; , numero , &quot;) = &quot; , valor<br>
+fim</p>
+<h3>Resultado:</h3>
+<p class="MONITOR">tangente hiperbólico(0.5) = 0.46211715726000974</p>
+<h3>Ver também</h3>
+<p><a href="funcoes_biblioteca.html">Funções de biblioteca</a></p>
+
+</body>
+
+</html>

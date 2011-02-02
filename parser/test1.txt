@@ -1,0 +1,22 @@
+estrutura est_t
+  inteiro a
+  inteiro b
+fim
+
+inteiro x[2][2] = {{1,2},{3,4}}
+
+est_t est[2]
+//inteiro est[2]
+
+main()
+
+  para x[0][0] de 1 ate 6 passo 1
+
+    para est[0].a de 1 ate 6 passo 1
+	
+    seguinte
+
+  seguinte
+
+
+fim

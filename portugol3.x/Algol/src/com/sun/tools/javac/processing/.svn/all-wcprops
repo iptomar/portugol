@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing
+END
+AnnotationProcessingError.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing/AnnotationProcessingError.java
+END
+JavacRoundEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing/JavacRoundEnvironment.java
+END
+ServiceProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing/ServiceProxy.java
+END
+JavacFiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing/JavacFiler.java
+END
+JavacProcessingEnvironment.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing/JavacProcessingEnvironment.java
+END
+PrintingProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing/PrintingProcessor.java
+END
+JavacMessager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/processing/JavacMessager.java
+END

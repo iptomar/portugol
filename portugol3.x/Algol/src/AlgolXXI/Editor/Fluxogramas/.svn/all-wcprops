@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas
+END
+DefeitoEdgeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/DefeitoEdgeView.java
+END
+EscreverNodeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/EscreverNodeView.java
+END
+DefeitoNodeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/DefeitoNodeView.java
+END
+ViewFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/ViewFactory.java
+END
+LerNodeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/LerNodeView.java
+END
+Bundle.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/Bundle.properties
+END
+Fluxogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/Fluxogram.java
+END
+FluxogramaPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/FluxogramaPanel.java
+END
+InicioFimNodeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/InicioFimNodeView.java
+END
+VisualEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/VisualEdge.java
+END
+VisualNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/Fluxogramas/VisualNode.java
+END

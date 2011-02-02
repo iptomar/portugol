@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util
+END
+JCDiagnostic.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/JCDiagnostic.java
+END
+FatalError.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/FatalError.java
+END
+Bits.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Bits.java
+END
+BaseFileObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/BaseFileObject.java
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Position.java
+END
+ListBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/ListBuffer.java
+END
+PropagatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/PropagatedException.java
+END
+Abort.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Abort.java
+END
+Messages.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Messages.java
+END
+DiagnosticFormatter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/DiagnosticFormatter.java
+END
+List.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/List.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Constants.java
+END
+LayoutCharacters.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/LayoutCharacters.java
+END
+JavacFileManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/JavacFileManager.java
+END
+Paths.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Paths.java
+END
+Convert.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Convert.java
+END
+Name.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Name.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Log.java
+END
+Old199.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Old199.java
+END
+MandatoryWarningHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/MandatoryWarningHandler.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Context.java
+END
+ClientCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/ClientCodeException.java
+END
+Options.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Options.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Pair.java
+END
+ByteBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/ByteBuffer.java
+END
+Warner.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/util/Warner.java
+END

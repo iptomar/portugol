@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Tipos de dados Estruturados</h1>
+<h3>Sintax</h3>
+<p class="SINTAX">&lt;variavel/constante&gt; &lt;tipo dados&gt; nome<span class="palavraReservada">[dimensão]</span><br>
+&lt;variavel/constante&gt;
+&lt;tipo dados&gt; nome<span class="palavraReservada">[dim1][dim2]. . . [dimn]<br>
+</span>&lt;tipo dados&gt; nome<span class="palavraReservada">[dimensão]<br>
+</span>&lt;tipo dados&gt; nome<span class="palavraReservada">[dimensão] &lt;- 
+{valor_1, valor_2, . . . , valor_n}</span></p>
+<h2>Estruturas homogéneas de dados (Arrays)</h2>
+<p>define um conjunto de dados todos do mesmo tipo que podem ser acedidos 
+através de um índice.<br>
+regras:</p>
+<p>1- Se a declaração omitir o termo &lt;variavel/constante&gt; o array é variavel<br>
+2- A definição do nome obedeçe ás mesmas regras das
+<a href="tipo_dados_variaveis.html">variáveis</a><br>
+3- A dimensão tem de ser um valor inteiro ou uma expressão com resultado inteiro<br>
+4 - As dimensões estão contidas dentro de parênteses rectos<br>
+5 - São permitidas tantas dimensões quantas as desejadas<br>
+6- Se o valor de inicialização for omitido todas o conjunto é inicializado com 
+os valores por <a href="tipo_dados_basicos.html">defeito</a><br>
+7 - A inicialização é feita com os dados compreendidos entre chavetas e 
+separados por virgulos<br>
+8 - Se o número de valores for insuficiente os últimos elementos são incializado 
+com os valores por <a href="tipo_dados_basicos.html">defeito</a> </p>
+<h3>Exemplo</h3>
+<p class="CODE">constante texto estacoes[4] &lt;- {&quot;inverno&quot;, &quot;outono&quot;, &quot;primavera&quot; 
+, &quot;verão&quot; }<br>
+variavel inteiro notas[3] &lt;- {10,20}<br>
+real salarios[12]<br>
+logico bits[8]</p>
+<h3>Ver também</h3>
+<ul>
+	<li><a href="tipo_dados_basicos.html">tipos de dados Básicos</a></li>
+	<li><a href="tipo_dados_variaveis.html">Variáveis</a></li>
+	<li><a href="tipo_dados_constantes.html">Constantes</a></li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate
+END
+AbstractCalculus.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/AbstractCalculus.java
+END
+Expression.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/Expression.java
+END
+Logics.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/Logics.java
+END
+FunctionsMath.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/FunctionsMath.java
+END
+Aritmetics.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/Aritmetics.java
+END
+CalculusElementSafe.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/CalculusElementSafe.java
+END
+CalculusElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/CalculusElement.java
+END
+Functions.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/Functions.java
+END
+Calculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/Calculator.java
+END
+CalculatorTokens.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/CalculatorTokens.java
+END
+FunctionsText.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/FunctionsText.java
+END
+Relationals.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Core/Evaluate/Relationals.java
+END

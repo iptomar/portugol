@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp
+END
+Infer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Infer.java
+END
+Todo.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Todo.java
+END
+MemberEnter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/MemberEnter.java
+END
+Flow.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Flow.java
+END
+Annotate.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Annotate.java
+END
+Attr.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Attr.java
+END
+TransTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/TransTypes.java
+END
+Enter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Enter.java
+END
+Check.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Check.java
+END
+Resolve.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Resolve.java
+END
+AttrContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/AttrContext.java
+END
+Lower.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Lower.java
+END
+Env.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/Env.java
+END
+AttrContextEnv.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/AttrContextEnv.java
+END
+ConstFold.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/tools/javac/comp/ConstFold.java
+END

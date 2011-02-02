@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor
+END
+AlgolXXITextPane.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/AlgolXXITextPane.java
+END
+AlgolXXIEditorKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/AlgolXXIEditorKit.java
+END
+StyleCOST.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/StyleCOST.xml
+END
+AlgolXXIStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/AlgolXXIStyle.java
+END
+LinePainter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/LinePainter.java
+END
+CodeStyleReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/CodeStyleReader.java
+END
+PortugolStyleReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/PortugolStyleReader.java
+END
+NumberedEditorKit.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/NumberedEditorKit.java
+END
+PopupMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/PopupMenu.java
+END
+codeStyleDEF.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/codeStyleDEF.xml
+END
+TextTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/TextTransfer.java
+END
+codeStyleProfile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/codeStyleProfile.xml
+END
+CodeStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/CodeStyle.java
+END
+PortugolStyle.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/PortugolStyle.java
+END
+StyleDEF.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/StyleDEF.xml
+END
+AlgolXXISyntax.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/AlgolXXI/Editor/CodeEditor/AlgolXXISyntax.java
+END

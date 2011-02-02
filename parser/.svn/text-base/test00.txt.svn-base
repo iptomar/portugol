@@ -1,0 +1,17 @@
+
+
+importa Stdio
+
+
+inteiro test( inteiro p )
+
+	p = p + 1
+
+	se p < 15 entao
+		println( "extern func " + p )	
+		test(p)
+	senao
+		retorna p
+	fimse
+
+fim test

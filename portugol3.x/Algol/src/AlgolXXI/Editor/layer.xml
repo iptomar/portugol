@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Shortcuts">
+        <file name="D-C.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Copiar.instance"/>
+        </file>
+        <file name="D-F.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Procurar.instance"/>
+        </file>
+        <file name="D-V.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Colar.instance"/>
+        </file>
+        <file name="F1.shadow">
+            <attr name="originalFile" stringvalue="Actions/Help/AlgolXXI-Editor-Ajuda.instance"/>
+        </file>
+        <file name="F3.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ProcurarProximo.instance"/>
+        </file>
+        <file name="F5.shadow">
+            <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Executa.instance"/>
+        </file>
+        <file name="F7.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaPasso.instance"/>
+        </file>
+        <file name="F8.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaTempo.instance"/>
+        </file>
+        <file name="D-A.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Abrir.instance"/>
+        </file>
+        <file name="D-N.shadow">
+            <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
+        </file>
+        <file name="D-O.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Abrir.instance"/>
+        </file>
+        <file name="D-S.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Guardar.instance"/>
+        </file>
+        <file name="DELETE.shadow">
+            <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Apaga.instance"/>
+        </file>
+    </folder>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="AlgolXXI-Editor-Abrir.instance"/>
+            <file name="AlgolXXI-Editor-ActionConvertJava.instance"/>
+            <file name="AlgolXXI-Editor-Apaga.instance"/>
+            <file name="AlgolXXI-Editor-Colar.instance"/>
+            <file name="AlgolXXI-Editor-Copiar.instance"/>
+            <file name="AlgolXXI-Editor-ExecutaPasso.instance"/>
+            <file name="AlgolXXI-Editor-ExecutaTempo.instance"/>
+            <file name="AlgolXXI-Editor-Guardar.instance"/>
+            <file name="AlgolXXI-Editor-GuardarComo.instance"/>
+            <file name="AlgolXXI-Editor-Opcoes.instance"/>
+            <file name="AlgolXXI-Editor-Pausa.instance"/>
+            <file name="AlgolXXI-Editor-Procurar.instance"/>
+            <file name="AlgolXXI-Editor-ProcurarProximo.instance"/>
+            <file name="AlgolXXI-Editor-Stop.instance"/>
+            <file name="AlgolXXI-Editor-Substituir.instance"/>
+            <file name="org-openide-actions-CopyAction.instance_hidden"/>
+            <file name="org-openide-actions-CutAction.instance_hidden"/>
+            <file name="org-openide-actions-DeleteAction.instance_hidden"/>
+            <file name="org-openide-actions-FindAction.instance_hidden"/>
+            <file name="org-openide-actions-GotoAction.instance_hidden"/>
+            <file name="org-openide-actions-PasteAction.instance_hidden"/>
+            <file name="org-openide-actions-ReplaceAction.instance_hidden"/>
+        </folder>
+        <folder name="Help">
+            <file name="AlgolXXI-Editor-Ajuda.instance"/>
+        </folder>
+        <folder name="System">
+            <file name="AlgolXXI-Editor-Executa.instance"/>
+            <file name="AlgolXXI-Editor-Novo.instance"/>
+            <file name="org-netbeans-core-actions-JumpNextAction.instance_hidden"/>
+            <file name="org-netbeans-core-actions-JumpPrevAction.instance_hidden"/>
+            <file name="org-openide-actions-PageSetupAction.instance_hidden"/>
+            <file name="org-openide-actions-PrintAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAllAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAsAction.instance_hidden"/>
+            <file name="org-openide-actions-ToolsAction.instance_hidden"/>
+        </folder>
+        <folder name="View">
+            <file name="org-netbeans-core-actions-HTMLViewAction.instance_hidden"/>
+            <file name="org-netbeans-core-actions-LogAction.instance_hidden"/>
+            <file name="org-openide-actions-CustomizeAction.instance_hidden"/>
+        </folder>
+        <folder name="Window">
+            <file name="AlgolXXI-Editor-ProgramaAction.instance"/>
+            <file name="org-netbeans-core-actions-GlobalPropertiesAction.instance_hidden"/>
+            <file name="org-netbeans-core-actions-NextViewCallbackAction.instance_hidden"/>
+            <file name="org-netbeans-core-actions-PreviousViewCallbackAction.instance_hidden"/>
+            <file name="org-netbeans-core-windows-actions-UndockWindowAction.instance_hidden"/>
+            <file name="org-netbeans-modules-options-OptionsWindowAction.instance_hidden"/>
+            <file name="org-netbeans-progress-module-ProgressListAction.instance_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <file name="GoTo_hidden"/>
+        <file name="Tools_hidden"/>
+        <file name="Source_hidden"/>
+        <folder name="Conversores">
+            <file name="AlgolXXI-Editor-ActionConvertJava.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ActionConvertJava.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <attr name="position" intvalue="500"/>
+        </folder>
+        <folder name="Edit">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
+            <file name="AlgolXXI-Editor-Apaga.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Apaga.instance"/>
+                <attr name="position" intvalue="1300"/>
+            </file>
+            <file name="AlgolXXI-Editor-Colar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Colar.instance"/>
+                <attr name="position" intvalue="1200"/>
+            </file>
+            <file name="AlgolXXI-Editor-Copiar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Copiar.instance"/>
+                <attr name="position" intvalue="1100"/>
+            </file>
+            <file name="AlgolXXI-Editor-Opcoes.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Opcoes.instance"/>
+                <attr name="position" intvalue="2000"/>
+            </file>
+            <file name="AlgolXXI-Editor-Procurar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Procurar.instance"/>
+                <attr name="position" intvalue="-150"/>
+            </file>
+            <file name="AlgolXXI-Editor-ProcurarProximo.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ProcurarProximo.instance"/>
+                <attr name="position" intvalue="-100"/>
+            </file>
+            <file name="AlgolXXI-Editor-Substituir.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Substituir.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            <file name="org-netbeans-core-actions-JumpNextAction.shadow_hidden"/>
+            <file name="org-netbeans-core-actions-JumpPrevAction.shadow_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$StartMacroRecordingAction.instance_hidden"/>
+            <file name="org-netbeans-modules-editor-MainMenuAction$StopMacroRecordingAction.instance_hidden"/>
+            <file name="org-openide-actions-CopyAction.instance_hidden"/>
+            <file name="org-openide-actions-CutAction.instance_hidden"/>
+            <file name="org-openide-actions-DeleteAction.instance_hidden"/>
+            <file name="org-openide-actions-FindAction.instance_hidden"/>
+            <file name="org-openide-actions-PasteAction.instance_hidden"/>
+            <file name="org-openide-actions-ReplaceAction.instance_hidden"/>
+        </folder>
+        <folder name="File">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
+            <file name="AlgolXXI-Editor-Abrir.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Abrir.instance"/>
+                <attr name="position" intvalue="0"/>
+            </file>
+            <file name="AlgolXXI-Editor-ExecutaPasso.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaPasso.instance"/>
+                <attr name="position" intvalue="-94"/>
+            </file>
+            <file name="AlgolXXI-Editor-ExecutaTempo.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaTempo.instance"/>
+                <attr name="position" intvalue="-93"/>
+            </file>
+            <file name="AlgolXXI-Editor-Guardar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Guardar.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="AlgolXXI-Editor-GuardarComo.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-GuardarComo.instance"/>
+                <attr name="position" intvalue="750"/>
+            </file>
+            <file name="AlgolXXI-Editor-Novo.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
+                <attr name="position" intvalue="-100"/>
+            </file>
+            <file name="AlgolXXI-Editor-Executa.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Executa.instance"/>
+                <attr name="position" intvalue="-95"/>
+            </file>
+            <file name="AlgolXXI-Editor-Pausa.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Pausa.instance"/>
+                <attr name="position" intvalue="-92"/>
+            </file>
+            <file name="AlgolXXI-Editor-Stop.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Stop.instance"/>
+                <attr name="position" intvalue="-91"/>
+            </file>
+            <file name="AlgolXXI-Editor-separatorAfter.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="-90"/>
+            </file>
+            <attr name="position" intvalue="-100"/>
+            <file name="Separator3.instance_hidden"/>
+            <file name="org-openide-actions-PageSetupAction.instance_hidden"/>
+            <file name="org-openide-actions-PrintAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAllAction.instance_hidden"/>
+            <file name="org-openide-actions-SaveAsAction.shadow_hidden"/>
+        </folder>
+        <folder name="Help">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
+            <file name="AlgolXXI-Editor-Ajuda.shadow">
+                <attr name="originalFile" stringvalue="Actions/Help/AlgolXXI-Editor-Ajuda.instance"/>
+                <attr name="position" intvalue="1200"/>
+            </file>
+        </folder>
+        <file name="View_hidden"/>
+        <folder name="Window">
+            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
+            <file name="CloneDocumentAction.shadow_hidden"/>
+            <file name="ProgressListAction.shadow_hidden"/>
+            <file name="org-netbeans-core-actions-GlobalPropertiesAction.shadow_hidden"/>
+            <file name="org-netbeans-core-windows-actions-UndockAction.shadow_hidden"/>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ProgramaTopComponent.settings" url="ProgramaTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="editor">
+                <file name="ProgramaTopComponent.wstcref" url="ProgramaTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Ficheiro">
+            <file name="AlgolXXI-Editor-Apaga.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Apaga.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <attr name="position" intvalue="-100"/>
+        </folder>
+        <folder name="Edit">
+            <attr name="position" intvalue="100"/>
+            <file name="AlgolXXI-Editor-Colar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Colar.instance"/>
+                <attr name="position" intvalue="350"/>
+            </file>
+            <file name="AlgolXXI-Editor-Copiar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Copiar.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="AlgolXXI-Editor-Opcoes.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Opcoes.instance"/>
+                <attr name="position" intvalue="600"/>
+            </file>
+            <file name="AlgolXXI-Editor-Procurar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Procurar.instance"/>
+                <attr name="position" intvalue="700"/>
+            </file>
+            <file name="AlgolXXI-Editor-ProcurarProximo.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ProcurarProximo.instance"/>
+                <attr name="position" intvalue="8000"/>
+            </file>
+            <file name="AlgolXXI-Editor-Substituir.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Substituir.instance"/>
+                <attr name="position" intvalue="8100"/>
+            </file>
+            <file name="org-openide-actions-CopyAction.instance_hidden"/>
+            <file name="org-openide-actions-CutAction.instance_hidden"/>
+            <file name="org-openide-actions-PasteAction.instance_hidden"/>
+        </folder>
+        <folder name="File">
+            <file name="AlgolXXI-Editor-Executa.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Executa.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="AlgolXXI-Editor-ExecutaPasso.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaPasso.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="AlgolXXI-Editor-ExecutaTempo.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaTempo.instance"/>
+                <attr name="position" intvalue="250"/>
+            </file>
+            <file name="AlgolXXI-Editor-Novo.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
+                <attr name="position" intvalue="-100"/>
+            </file>
+            <file name="AlgolXXI-Editor-Pausa.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Pausa.instance"/>
+                <attr name="position" intvalue="275"/>
+            </file>
+            <file name="AlgolXXI-Editor-Stop.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Stop.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-openide-actions-SaveAllAction.instance_hidden"/>
+        </folder>
+    </folder>
+</filesystem>

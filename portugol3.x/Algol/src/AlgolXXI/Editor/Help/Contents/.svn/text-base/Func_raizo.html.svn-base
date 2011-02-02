@@ -1,0 +1,31 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Exponencial</h1>
+<h3>Sintax</h3>
+<p class="SINTAX">real logaritmo (real valor )</p>
+<h3>Descrição</h3>
+<p>calcula o valor do logaritmo de base e do valor do parametro.</p>
+<h3>Exemplo</h3>
+<p class="CODE">inicio<br>
+&nbsp;&nbsp;&nbsp; real numero , valor<br>
+&nbsp;&nbsp;&nbsp; numero &lt;- 10<br>
+&nbsp;&nbsp;&nbsp; valor &lt;- <font color="#0000FF">logaritmo</font> ( numero )<br>
+&nbsp;&nbsp;&nbsp; escrever &quot;logaritmo(&quot; , numero , &quot;) = &quot; , valor<br>
+fim</p>
+<h3>Resultado</h3>
+<p class="MONITOR">logaritmo(10.0) = 2.302585092994046</p>
+<h3>Ver também</h3>
+<p><a href="funcoes_biblioteca.html">Funções de biblioteca</a></p>
+
+</body>
+
+</html>

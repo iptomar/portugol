@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util
+END
+Trees.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/Trees.java
+END
+TaskEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/TaskEvent.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/package-info.java
+END
+TreePathScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/TreePathScanner.java
+END
+JavacTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/JavacTask.java
+END
+SourcePositions.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/SourcePositions.java
+END
+TaskListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/TaskListener.java
+END
+SimpleTreeVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/SimpleTreeVisitor.java
+END
+TreeScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/TreeScanner.java
+END
+TreePath.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/source/util/TreePath.java
+END

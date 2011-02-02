@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util
+END
+DeclarationScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/DeclarationScanner.java
+END
+SimpleDeclarationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/SimpleDeclarationVisitor.java
+END
+TypeVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/TypeVisitor.java
+END
+Types.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/Types.java
+END
+DeclarationVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/DeclarationVisitor.java
+END
+SourcePosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/SourcePosition.java
+END
+DeclarationVisitors.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/DeclarationVisitors.java
+END
+Declarations.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/Declarations.java
+END
+DeclarationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/DeclarationFilter.java
+END
+SimpleTypeVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/SimpleTypeVisitor.java
+END
+SourceOrderDeclScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/SourceOrderDeclScanner.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/portugol/!svn/ver/116/portugol3.x/Algol/src/com/sun/mirror/util/package.html
+END

@@ -1,0 +1,9 @@
+Manifest-Version: 1
+OpenIDE-Module: org.jvnet.substance.netbeans/5
+OpenIDE-Module-Implementation-Version: 1
+OpenIDE-Module-Localizing-Bundle: org/jvnet/substance/netbeans/Bundle.properties
+OpenIDE-Module-Specification-Version: 5.0
+OpenIDE-Module-Layer: org/jvnet/substance/netbeans/ui/layer.xml
+OpenIDE-Module-Install: org/jvnet/substance/netbeans/SubstanceModule.class
+OpenIDE-Module-Java-Dependencies: Java > 1.4.2, VM > 1.0
+

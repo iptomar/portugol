@@ -1,0 +1,52 @@
+
+importa Stdio
+importa test00
+
+texto str = "ola mundo"
+inteiro y = 5
+
+logico l = verdadeiro != verdadeiro 
+
+main()
+
+	inteiro x = 1 + 2.9 + y
+
+	x = x - 1
+	
+	println( "" + l )
+	println( str )
+	println( "x: " + x )
+	println( "l: " + l )
+
+	println(" ")
+	
+	se x > 10 entao
+		println( "x maior k 10" )	 
+	senao
+		se x == 10 entao
+			println( "x igual	a 10" )
+		senao
+			println( "x menor k 10" )
+		fimse
+	fimse
+	
+	println(" ")
+	
+	enquanto x < 20 faz
+	  println( "x: " + x )
+		x = x + 1
+	fimenquanto
+	
+	println(" ")
+	
+	faz
+	  println( "x: " + x )
+		x = x + 1
+	enquanto x < 25
+
+	println(" ")
+	
+	test( 10 )
+	
+fim
+

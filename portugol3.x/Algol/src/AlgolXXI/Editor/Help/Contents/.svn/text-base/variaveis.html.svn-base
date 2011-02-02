@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        palavras reservadas <br>
+        " LER ESCREVER "<br>
+        " INICIO FIM "<br> 
+        " SE ENTAO SENAO FIMSE "<br>
+        " PARA DE ATE PASSO PROXIMO "<br>
+        " ENQUANTO FAZ FIMENQUANTO "<br>
+        " REPETE ATE "<br>
+        " INTEIRO REAL CARACTER LOGICO TEXTO "<br>
+        " CONSTANTE "<br>
+        " VERDADEIRO FALSO "<br>            
+        <p>        
+        simbolos permitidos<br>
+        "abcdefghijklmnopqrstuvxywz"<br>
+        "ABCDEFGHIJKLMNOPQRSTUVXYWZ"<br>
+        "_0123456789"<br>
+        <p>
+        TEXTO - começa e termina com aspas "" <br>
+        exemplo: <br>
+        texto nome := "ANTONIO"<br>
+        <p>
+        CARACTER - começa e termina com aspas ""<br>
+        tem um e um só carecter <br>
+        exemplo:<br>
+        caracter sexo := "M" <br>
+        <p>
+        LOGICO - pode ter os valores VERDADEIRO e FALSO
+        exemplo:<br>
+        logico repetente := falso <br>
+         <p>
+        INTEIRO - pode ter os valores inteiro
+        exemplo:<br>
+        inteiro idade := 14543 <br>
+         <p>
+        REAL - pode ter os valores reais no formato xx.yy
+        exemplo:<br>
+        real media := 14.5 <br>
+        
+        
+        
+    </body>
+</html>

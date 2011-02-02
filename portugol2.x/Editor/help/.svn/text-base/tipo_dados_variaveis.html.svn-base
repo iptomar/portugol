@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="pt">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Portugol</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="algoritmos.css">
+</head>
+
+<body>
+
+<h1>Variáveis</h1>
+<h3>Sintax</h3>
+<p class="SINTAX"><font color="#0000FF">variavel</font> [tipo] [nome] &lt;- [expressão]<br>
+<font color="#0000FF">variavel</font> [tipo] [nome] &lt;- [valor] ,[nome] &lt;- [expressão] 
+<br>
+[tipo] [nome] &lt;- [expressão]<br>
+[tipo] [nome]</p>
+<h3>Definição</h3>
+<p>Define um símbolo cujo valor pode ser alterado durante os seu ciclo de vida.<br>
+<span style="font-weight: 400">As variáveis são o elemento básico de 
+processamento. A sua declaração permite definir que tipo de informação irão 
+conter. <br>
+A declaração de variaveis segue as seguintes regras:<br>
+1- O nome tem de começar por uma letra ou pelo carácter&nbsp; undescore (_) e 
+não pode ser uma palavra reservada da linguagem.<br>
+2- O valor de inicialização tem de ser compativel com tipo de variável definido.<br>
+3- Se o valor de inicialização for omitido a variavel é inicializada com os
+<a href="tipo_dados_basicos.html">valores por defeito</a></span><br>
+4- É possivel definir mais que uma variavel utilizando o caracter virgula (,)<br>
+5- É possível omitir a palavra variavel.</p><h3>
+Exemplos</h3>
+
+<p class="CODE">variavel inteiro idade &lt;- 18<br>
+variavel real peso &lt;- 23.14<br>
+logico repetente<br>
+texto nome &lt;- &quot;Antonio&quot; , apelido &lt;- &quot;Sousa&quot;<br>
+caracter sexo</p>
+<h3>Ver também</h3>
+<ul>
+	<li><a href="tipo_dados_basicos.html">Tipos de dados básicos</a></li>
+	<li><a href="tipo_dados_constantes.html">Constantes</a></li>
+	<li><a href="tipo_dados_estruturados.html">tipos de dados estruturados</a></li>
+</ul>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

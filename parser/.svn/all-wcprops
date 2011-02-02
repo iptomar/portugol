@@ -1,0 +1,539 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/portugol/!svn/ver/110/parser
+END
+ASTVariableDeclarationList.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/portugol/!svn/ver/64/parser/ASTVariableDeclarationList.java
+END
+ASTStatements.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/portugol/!svn/ver/56/parser/ASTStatements.java
+END
+ASTDivNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/29/parser/ASTDivNode.java
+END
+ASTNEqNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/49/parser/ASTNEqNode.java
+END
+ASTRealNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/portugol/!svn/ver/53/parser/ASTRealNode.java
+END
+SemanticFirstPass.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/portugol/!svn/ver/91/parser/SemanticFirstPass.java
+END
+ASTGNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/portugol/!svn/ver/39/parser/ASTGNode.java
+END
+ASTSwitchLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/portugol/!svn/ver/60/parser/ASTSwitchLabel.java
+END
+PortugolParser.jj
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/portugol/!svn/ver/84/parser/PortugolParser.jj
+END
+test3_func.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/101/parser/test3_func.txt
+END
+PortugolIPCMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/portugol/!svn/ver/81/parser/PortugolIPCMessage.java
+END
+test00.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/portugol/!svn/ver/98/parser/test00.txt
+END
+ASTLENode.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/portugol/!svn/ver/44/parser/ASTLENode.java
+END
+ASTNotNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/50/parser/ASTNotNode.java
+END
+Stdio.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/portugol/!svn/ver/95/parser/Stdio.java
+END
+PortugolIPCMessageI.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/portugol/!svn/ver/82/parser/PortugolIPCMessageI.java
+END
+PortugolInterpretorCodeViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/portugol/!svn/ver/80/parser/PortugolInterpretorCodeViewer.java
+END
+ASTXorNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/67/parser/ASTXorNode.java
+END
+SemanticSecondPass.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/portugol/!svn/ver/92/parser/SemanticSecondPass.java
+END
+PortugolParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/portugol/!svn/ver/83/parser/PortugolParser.java
+END
+ASTImportDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/portugol/!svn/ver/41/parser/ASTImportDeclaration.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/portugol/!svn/ver/76/parser/ParseException.java
+END
+ASTIfStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/portugol/!svn/ver/40/parser/ASTIfStatement.java
+END
+testes.bat
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/portugol/!svn/ver/104/parser/testes.bat
+END
+ASTTrueNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/portugol/!svn/ver/62/parser/ASTTrueNode.java
+END
+ASTModNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/46/parser/ASTModNode.java
+END
+ASTSwitchStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/portugol/!svn/ver/61/parser/ASTSwitchStatement.java
+END
+ASTOrNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/portugol/!svn/ver/52/parser/ASTOrNode.java
+END
+ASTFunctionDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/portugol/!svn/ver/37/parser/ASTFunctionDeclaration.java
+END
+PortugolParserTreeConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/portugol/!svn/ver/88/parser/PortugolParserTreeConstants.java
+END
+ASTAssignmentStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/portugol/!svn/ver/26/parser/ASTAssignmentStatement.java
+END
+ASTSubNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/59/parser/ASTSubNode.java
+END
+ASTFormalParametersList.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/portugol/!svn/ver/35/parser/ASTFormalParametersList.java
+END
+ASTLNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/portugol/!svn/ver/45/parser/ASTLNode.java
+END
+ASTMulNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/47/parser/ASTMulNode.java
+END
+TypeCheck.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/107/parser/TypeCheck.java
+END
+ASTIndexSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/portugol/!svn/ver/42/parser/ASTIndexSelector.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/portugol/!svn/ver/105/parser/Token.java
+END
+SemanticException.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/portugol/!svn/ver/90/parser/SemanticException.java
+END
+PortugolCore.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/portugol/!svn/ver/78/parser/PortugolCore.java
+END
+console.bat
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/portugol/!svn/ver/68/parser/console.bat
+END
+test3_prog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/102/parser/test3_prog.txt
+END
+ASTWhileDoStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/portugol/!svn/ver/66/parser/ASTWhileDoStatement.java
+END
+SimpleNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/94/parser/SimpleNode.java
+END
+JJTPortugolParserState.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/portugol/!svn/ver/73/parser/JJTPortugolParserState.java
+END
+ASTStructDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/portugol/!svn/ver/58/parser/ASTStructDeclaration.java
+END
+ASTVariableDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/portugol/!svn/ver/63/parser/ASTVariableDeclaration.java
+END
+ASTAddNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/22/parser/ASTAddNode.java
+END
+PortugolParserVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/portugol/!svn/ver/89/parser/PortugolParserVisitor.java
+END
+ASTGENode.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/portugol/!svn/ver/38/parser/ASTGENode.java
+END
+UnitCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/portugol/!svn/ver/108/parser/UnitCompiler.java
+END
+FunctionSymbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/portugol/!svn/ver/71/parser/FunctionSymbol.java
+END
+ASTReturnStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/portugol/!svn/ver/54/parser/ASTReturnStatement.java
+END
+ASTAndNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/23/parser/ASTAndNode.java
+END
+ASTForStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/portugol/!svn/ver/36/parser/ASTForStatement.java
+END
+PortugolParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/portugol/!svn/ver/87/parser/PortugolParserTokenManager.java
+END
+ASTStringNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/portugol/!svn/ver/57/parser/ASTStringNode.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/portugol/!svn/ver/75/parser/Node.java
+END
+viewer.bat
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/portugol/!svn/ver/110/parser/viewer.bat
+END
+ASTNegNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/48/parser/ASTNegNode.java
+END
+ASTDoWhileStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/portugol/!svn/ver/30/parser/ASTDoWhileStatement.java
+END
+ASTNullNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/portugol/!svn/ver/51/parser/ASTNullNode.java
+END
+ASTCallFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/portugol/!svn/ver/27/parser/ASTCallFunction.java
+END
+ASTFormalParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/portugol/!svn/ver/34/parser/ASTFormalParameter.java
+END
+ASTArrayInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/portugol/!svn/ver/25/parser/ASTArrayInitializer.java
+END
+ASTCharNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/portugol/!svn/ver/28/parser/ASTCharNode.java
+END
+ASTFieldSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/portugol/!svn/ver/33/parser/ASTFieldSelector.java
+END
+teste3.bat
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/portugol/!svn/ver/103/parser/teste3.bat
+END
+test0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/portugol/!svn/ver/97/parser/test0.txt
+END
+PortugolParser.jjt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/portugol/!svn/ver/85/parser/PortugolParser.jjt
+END
+ASTVariableName.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/portugol/!svn/ver/65/parser/ASTVariableName.java
+END
+gen.bat
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/portugol/!svn/ver/72/parser/gen.bat
+END
+test1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/portugol/!svn/ver/99/parser/test1.txt
+END
+PortugolInterpreter.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/portugol/!svn/ver/79/parser/PortugolInterpreter.java
+END
+test2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/portugol/!svn/ver/100/parser/test2.txt
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/portugol/!svn/ver/106/parser/TokenMgrError.java
+END
+Evaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/portugol/!svn/ver/70/parser/Evaluator.java
+END
+make.bat
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/portugol/!svn/ver/74/parser/make.bat
+END
+ASTArrayDims.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/portugol/!svn/ver/24/parser/ASTArrayDims.java
+END
+SimpleCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/portugol/!svn/ver/93/parser/SimpleCharStream.java
+END
+ASTStart.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/portugol/!svn/ver/55/parser/ASTStart.java
+END
+ASTFalseNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/portugol/!svn/ver/32/parser/ASTFalseNode.java
+END
+ASTIntNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/portugol/!svn/ver/43/parser/ASTIntNode.java
+END
+Portugol.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/portugol/!svn/ver/77/parser/Portugol.java
+END
+VariableSymbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/portugol/!svn/ver/109/parser/VariableSymbol.java
+END
+SymbolTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/portugol/!svn/ver/96/parser/SymbolTable.java
+END
+ASTEqNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/portugol/!svn/ver/31/parser/ASTEqNode.java
+END
+PortugolParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/portugol/!svn/ver/86/parser/PortugolParserConstants.java
+END
+DumpTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/portugol/!svn/ver/69/parser/DumpTree.java
+END
