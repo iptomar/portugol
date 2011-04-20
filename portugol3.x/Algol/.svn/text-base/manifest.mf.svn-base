@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-OpenIDE-Module: AlgolXXI.Editor
-OpenIDE-Module-Implementation-Version: 3
-OpenIDE-Module-Layer: AlgolXXI/Editor/layer.xml
-OpenIDE-Module-Localizing-Bundle: AlgolXXI/Editor/Bundle.properties
-
