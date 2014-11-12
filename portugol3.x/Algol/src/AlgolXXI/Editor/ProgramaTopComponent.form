@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
   <Properties>
@@ -254,11 +254,11 @@
                           <SubComponents>
                             <Component class="javax.swing.JTextArea" name="execucao">
                               <Properties>
+                                <Property name="editable" type="boolean" value="false"/>
                                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                   <Color blue="f0" green="f0" id="EditorPane.disabledBackground" palette="3" red="f0" type="palette"/>
                                 </Property>
                                 <Property name="columns" type="int" value="20"/>
-                                <Property name="editable" type="boolean" value="false"/>
                                 <Property name="rows" type="int" value="5"/>
                               </Properties>
                             </Component>
@@ -297,17 +297,6 @@
                           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
                         </Container>
                       </SubComponents>
-                    </Container>
-                    <Container class="javax.swing.JPanel" name="panel_venn">
-                      <Constraints>
-                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Testes">
-                            <Property name="tabTitle" type="java.lang.String" value="Testes"/>
-                          </JTabbedPaneConstraints>
-                        </Constraint>
-                      </Constraints>
-
-                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
                     </Container>
                   </SubComponents>
                 </Container>
