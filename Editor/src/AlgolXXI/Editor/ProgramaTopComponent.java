@@ -184,7 +184,7 @@ public class ProgramaTopComponent extends TopComponent implements Runnable {
         try {
             codigo.setText(AlgolXXI.Core.Utils.FileManager.getSource("SemNome.alg"));
         } catch (Exception ex) {
-            codigo.setText("inicio programa\n"
+            codigo.setText("programa\n"
                     + "escrever \"ola mundo\"\n"
                     + "fim programa\n");
         }
