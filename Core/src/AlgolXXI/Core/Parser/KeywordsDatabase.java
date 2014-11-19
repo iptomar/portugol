@@ -4,8 +4,8 @@
  */
 package AlgolXXI.Core.Parser;
 
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Vector;
 
 /**
  *
@@ -20,9 +20,9 @@ public class KeywordsDatabase {
     private static HashMap<Integer,String> fastKeys;
     private static HashMap<String,Integer> fastIDs;
     
-    private static Vector<AlgolXXIKeyword> allKeywords;
-    private static Vector<AlgolXXIKeyword> normalKeywords;
-    private static Vector<AlgolXXIKeyword> typeKeywords;
+    private static ArrayList<AlgolXXIKeyword> allKeywords;
+    private static ArrayList<AlgolXXIKeyword> normalKeywords;
+    private static ArrayList<AlgolXXIKeyword> typeKeywords;
     private static String ALEATORIO,  SEN,  COS,  TAN,  CTG,  ASEN,  ACOS,  ATAN,  ACTG,  SENH,  COSH;
     private static String TANH,  CTGH,  EXP,  ABS,  RAIZ,  LOG,  LN,  INT,  FRAC,  ARRED,  POTENCIA;
     private static String COMPRIMENTO,  LETRA;
@@ -36,23 +36,23 @@ public class KeywordsDatabase {
         
         allKeywords = KeywordsReader.getKeywords();
         
-        normalKeywords = new Vector<AlgolXXIKeyword>();
-        typeKeywords = new Vector<AlgolXXIKeyword>();
+        normalKeywords = new ArrayList<AlgolXXIKeyword>();
+        typeKeywords = new ArrayList<AlgolXXIKeyword>();
         
         for (int i = 0; i < allKeywords.size(); i++) {
-            int id = allKeywords.elementAt(i).getId();
-            String word = allKeywords.elementAt(i).getWord();
-            String cat = allKeywords.elementAt(i).getCategory();
+            int id = allKeywords.get(i).getId();
+            String word = allKeywords.get(i).getWord();
+            String cat = allKeywords.get(i).getCategory();
            
             fastKeys.put(id, word.toUpperCase());
             fastIDs.put(word.toUpperCase(), id);
 
             if (cat.equals("TYPE")) {
-                typeKeywords.addElement(allKeywords.elementAt(i));
+                typeKeywords.add(allKeywords.get(i));
             }
 
             if (!cat.equals("MATHFUNC") && !cat.equals("TEXTFUNC") && !cat.equals("LOGICFUNC")) {
-                normalKeywords.addElement(allKeywords.elementAt(i));
+                normalKeywords.add(allKeywords.get(i));
             }
 
             switch (id) {
@@ -174,10 +174,10 @@ public class KeywordsDatabase {
     
     
     public static String getKeyword(int key) {
-        return allKeywords.elementAt(key).getWord();
+        return allKeywords.get(key).getWord();
     }
 
-    public static Vector<AlgolXXIKeyword> getAllKeywords() {
+    public static ArrayList<AlgolXXIKeyword> getAllKeywords() {
         return allKeywords;
     }
 
@@ -203,7 +203,7 @@ public class KeywordsDatabase {
         return NAO;
     }
 
-    public static Vector<AlgolXXIKeyword> getNormalKeywords() {
+    public static ArrayList<AlgolXXIKeyword> getNormalKeywords() {
         return normalKeywords;
     }
 
@@ -254,7 +254,7 @@ public class KeywordsDatabase {
         return TANH;
     }
 
-    public static Vector<AlgolXXIKeyword> getTypeKeywords() {
+    public static ArrayList<AlgolXXIKeyword> getTypeKeywords() {
         return typeKeywords;
     }
 

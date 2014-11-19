@@ -17,9 +17,8 @@ import AlgolXXI.Core.Make.MakeSymbol;
 import AlgolXXI.Core.Parser.Keyword;
 import AlgolXXI.Core.Parser.LineTokens;
 import AlgolXXI.Core.Parser.ProgramTokens;
-import AlgolXXI.Core.Utils.IteratorLine;
 import AlgolXXI.Core.Utils.LanguageException;
-import java.util.Vector;
+import java.util.ArrayList;
 
 /**
  *ESta classe vai representar as estruturas
@@ -36,7 +35,7 @@ public class SymbolStructure extends SymbolDataComplex {
             throws Exception {
         super(Symbol.STRUCTURE, false);
         this.level = level;
-        data = new Vector<SymbolData>();
+        data = new ArrayList<SymbolData>();
         //primeira linha tem o nome da estrutura // estrutura data
         LineTokens l = prog.getLines().get(0);
         name = l.getElements().get(1).getValue();
@@ -51,7 +50,7 @@ public class SymbolStructure extends SymbolDataComplex {
     public SymbolStructure(SymbolStructure model, String newName, int level) throws LanguageException {
         super(Symbol.STRUCTURE, true);
         this.level = level;
-        data = new Vector<SymbolData>();
+        data = new ArrayList<SymbolData>();
         name = newName;
         typeName = model.typeName;
         // normalizeName( );
@@ -81,7 +80,7 @@ public class SymbolStructure extends SymbolDataComplex {
     public SymbolStructure(SymbolStructure model) throws LanguageException {
         super(Symbol.STRUCTURE, true);
         this.level = model.level;
-        data = new Vector<SymbolData>();
+        data = new ArrayList<SymbolData>();
         name = model.name;
         typeName = model.typeName;
         objectValue = data;

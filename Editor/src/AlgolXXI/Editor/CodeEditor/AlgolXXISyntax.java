@@ -20,11 +20,11 @@ import org.openide.util.Exceptions;
 public class AlgolXXISyntax extends DefaultStyledDocument {
 
     private Element rootElement;
-    private Vector<String> block;
-    private Vector<String> type;
-    private Vector<String> lexicon;
-    private Vector<String> value;
-    private Vector<String> operator;
+    private ArrayList<String> block;
+    private ArrayList<String> type;
+    private ArrayList<String> lexicon;
+    private ArrayList<String> value;
+    private ArrayList<String> operator;
     private String[] mathOperators = {"+", "-", "*", "/", "<", ">", "="};
     //private String codeStyleFilePath = "Algol/src/AlgolXXI/Editor/CodeEditor/StyleCOST.xml";
     //private String codeStyleFilePath = "StyleCOST.xml";
@@ -92,27 +92,28 @@ public class AlgolXXISyntax extends DefaultStyledDocument {
      */
     private void addKeywords() {
 
-        block = new Vector<String>();
-        type = new Vector<String>();
-        lexicon = new Vector<String>();
-        value = new Vector<String>();
-        operator = new Vector<String>();
+        block = new ArrayList<String>();
+        type = new ArrayList<String>();
+        lexicon = new ArrayList<String>();
+        value = new ArrayList<String>();
+        operator = new ArrayList<String>();
 
-        Vector<AlgolXXIKeyword> keywords = KeywordsDatabase.getAllKeywords();
+        ArrayList<AlgolXXIKeyword> keywords;
+        keywords = KeywordsDatabase.getAllKeywords();
 
         for (int i = 0; i < keywords.size(); i++) {
-            String auxCat = keywords.elementAt(i).getCategory();
+            String auxCat = keywords.get(i).getCategory();
 
             if (auxCat.equals("BLOCK")) {
-                block.addElement(keywords.elementAt(i).getWord());
+                block.add(keywords.get(i).getWord());
             } else if (auxCat.equals("TYPE")) {
-                type.addElement(keywords.elementAt(i).getWord());
+                type.add(keywords.get(i).getWord());
             } else if (auxCat.equals("LEXICON") || auxCat.equals("MATHFUNC") || auxCat.equals("TEXTFUNC")) {
-                lexicon.addElement(keywords.elementAt(i).getWord());
+                lexicon.add(keywords.get(i).getWord());
             } else if (auxCat.equals("VALUE")) {
-                value.addElement(keywords.elementAt(i).getWord());
+                value.add(keywords.get(i).getWord());
             } else if (auxCat.equals("LOGICFUNC")) {
-                operator.addElement(keywords.elementAt(i).getWord());
+                operator.add(keywords.get(i).getWord());
             }
         }
     }
@@ -171,7 +172,7 @@ public class AlgolXXISyntax extends DefaultStyledDocument {
     private void findBlockKeywords(String text) {
         for (int i = 0; i < block.size(); i++) {
 
-            String keyword = block.elementAt(i);
+            String keyword = block.get(i);
             Pattern p = Pattern.compile("\\b" + keyword + "\\b", Pattern.CASE_INSENSITIVE);
             Matcher m = p.matcher(text);
 
@@ -189,7 +190,7 @@ public class AlgolXXISyntax extends DefaultStyledDocument {
     private void findLexiconKeywords(String text) {
         for (int i = 0; i < lexicon.size(); i++) {
 
-            String keyword = lexicon.elementAt(i);
+            String keyword = lexicon.get(i);
             Pattern p = Pattern.compile("\\b" + keyword + "\\b", Pattern.CASE_INSENSITIVE);
             Matcher m = p.matcher(text);
 
@@ -207,7 +208,7 @@ public class AlgolXXISyntax extends DefaultStyledDocument {
     private void findOperatorKeywords(String text) {
         for (int i = 0; i < operator.size(); i++) {
 
-            String keyword = operator.elementAt(i);
+            String keyword = operator.get(i);
             Pattern p = Pattern.compile("\\b" + keyword + "\\b", Pattern.CASE_INSENSITIVE);
             Matcher m = p.matcher(text);
 
@@ -239,7 +240,7 @@ public class AlgolXXISyntax extends DefaultStyledDocument {
     private void findTypeKeywords(String text) {
         for (int i = 0; i < type.size(); i++) {
 
-            String keyword = type.elementAt(i);
+            String keyword = type.get(i);
             Pattern p = Pattern.compile("\\b" + keyword + "\\b", Pattern.CASE_INSENSITIVE);
             Matcher m = p.matcher(text);
 
@@ -256,7 +257,7 @@ public class AlgolXXISyntax extends DefaultStyledDocument {
     private void findValueKeywords(String text) {
         for (int i = 0; i < value.size(); i++) {
 
-            String keyword = value.elementAt(i);
+            String keyword = value.get(i);
             Pattern p = Pattern.compile("\\b" + keyword + "\\b", Pattern.CASE_INSENSITIVE);
             Matcher m = p.matcher(text);
 

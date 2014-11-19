@@ -10,6 +10,7 @@ import AlgolXXI.Core.Parser.*;
 import AlgolXXI.Core.Utils.CodeLine;
 import AlgolXXI.Core.Utils.IteratorLine;
 import AlgolXXI.Core.Utils.LanguageException;
+import java.util.ArrayList;
 import java.util.Vector;
 
 /**
@@ -33,18 +34,18 @@ public class Memory {
     /**
      * vector com os simbolos constantes e variaveis
      */
-    private Vector<SymbolData> memory;
+    private ArrayList<SymbolData> memory;
 
     public Memory() {
         struct = new Vector<SymbolStructure>();
-        memory = new Vector<SymbolData>();
+        memory = new ArrayList<SymbolData>();
         //funcs = new Vector<ProgramBlock>();
         defFuncs = new Vector<Function>();
     }
 
     public Memory(Memory clone) {
         struct = new Vector<SymbolStructure>();
-        memory = new Vector<SymbolData>();
+        memory = new ArrayList<SymbolData>();
         //funcs = new Vector<ProgramBlock>();
         defFuncs = new Vector<Function>();
 
@@ -129,7 +130,7 @@ public class Memory {
         return null;
     }
 
-    Vector<SymbolData> getSymbols() {
+    ArrayList<SymbolData> getSymbols() {
         return memory;
     }
 
@@ -346,7 +347,7 @@ public class Memory {
         return tmp.toString().trim();
     }
 
-    public Vector<SymbolData> getMemory() {
+    public ArrayList<SymbolData> getMemory() {
         return memory;
     }
 

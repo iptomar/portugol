@@ -26,6 +26,7 @@ import AlgolXXI.Core.Parser.Token;
 import AlgolXXI.Core.Utils.IteratorLineTokens;
 import AlgolXXI.Core.Utils.LanguageException;
 import AlgolXXI.Core.Utils.Values;
+import java.util.ArrayList;
 import java.util.Vector;
 import java.util.concurrent.ExecutionException;
 import org.openide.util.Exceptions;
@@ -35,7 +36,7 @@ public class ExecuteProgram implements Runnable {
     /**
      * Vector com os blocos do programa
      */
-    private Vector<Function> blocks = new Vector<Function>();
+    private ArrayList<Function> blocks = new ArrayList<Function>();
     /**
      * apontador para o inicio do bloco principal (programa)
      */
@@ -66,7 +67,7 @@ public class ExecuteProgram implements Runnable {
         //funcção principal
         Function main = prog.getMainFunction();
         //clone da main
-        Function cloneMain = new Function(main, new Vector<SymbolData>(), null);
+        Function cloneMain = new Function(main, new ArrayList<SymbolData>(), null);
         blocks.add(cloneMain);
         start = cloneMain.getBegin();
         inExecution = start;
@@ -166,9 +167,9 @@ public class ExecuteProgram implements Runnable {
         }
     }
     // extrai os parametros da linha de chamada da funcao
-    public Vector<SymbolData> getParameters(NodeFluxo node)
+    public ArrayList<SymbolData> getParameters(NodeFluxo node)
             throws LanguageException, Exception {
-        Vector<SymbolData> param = new Vector<SymbolData>();
+        ArrayList<SymbolData> param = new ArrayList<SymbolData>();
         IteratorLineTokens it = new IteratorLineTokens(node.getInstruction());
         //nome da funçao
         Token nameFunc = it.next();
@@ -276,7 +277,7 @@ public class ExecuteProgram implements Runnable {
         }
     }
 
-    public Vector<Function> getBlocks() {
+    public ArrayList<Function> getBlocks() {
         return blocks;
     }
 }

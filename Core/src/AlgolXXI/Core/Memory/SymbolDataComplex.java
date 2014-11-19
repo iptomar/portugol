@@ -18,11 +18,12 @@ import AlgolXXI.Core.Parser.Token;
 import AlgolXXI.Core.Utils.IteratorElemTokens;
 import AlgolXXI.Core.Utils.IteratorLine;
 import AlgolXXI.Core.Utils.LanguageException;
+import java.util.ArrayList;
 import java.util.Vector;
 
 public abstract class SymbolDataComplex extends SymbolData {
 
-    protected Vector<SymbolData> data;
+    protected ArrayList<SymbolData> data;
 
     public SymbolDataComplex(int type, boolean ref) throws LanguageException {
         //contrutor de symbolos
@@ -45,7 +46,7 @@ public abstract class SymbolDataComplex extends SymbolData {
         return null;
     }
 
-    public Vector<SymbolData> getData() {
+    public ArrayList<SymbolData> getData() {
         return data;
     }
 

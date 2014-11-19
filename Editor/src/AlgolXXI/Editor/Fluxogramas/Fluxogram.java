@@ -12,9 +12,9 @@ import AlgolXXI.Editor.ProgramaTopComponent;
 import java.awt.Color;
 import java.awt.Point;
 import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.Vector;
 import javax.swing.BorderFactory;
 import org.jgraph.JGraph;
 import org.jgraph.graph.DefaultGraphCell;
@@ -31,7 +31,7 @@ public class Fluxogram extends JGraph {
     private int blockid = -1;
     private VisualNode oldnode = null;
     private int x_pos = 0;
-    private Vector<Integer> programas_desenhados;
+    private ArrayList<Integer> programas_desenhados;
     private ExecuteProgram executor;
     private ProgramaTopComponent topcomponent;
     private VisualNode inexecution;
@@ -41,7 +41,7 @@ public class Fluxogram extends JGraph {
     public Fluxogram(DefaultGraphModel model, ProgramaTopComponent tpc) {
         super(model);
         this.model = model;
-        programas_desenhados = new Vector<Integer>();
+        programas_desenhados = new ArrayList<Integer>();
         topcomponent = tpc;
         executor = topcomponent.getExecutor();
         setEditable(false);
@@ -188,8 +188,8 @@ public class Fluxogram extends JGraph {
     }
 
     private void removeBlock(int blockID) {
-        Vector<VisualNode> nodes_remover = new Vector<VisualNode>();
-        Vector<DefaultGraphCell> remover = new Vector<DefaultGraphCell>();
+        ArrayList<VisualNode> nodes_remover = new ArrayList<VisualNode>();
+        ArrayList<DefaultGraphCell> remover = new ArrayList<DefaultGraphCell>();
 
         for (Object node_obj : getDescendants(getRoots())) {
             if (node_obj instanceof VisualNode) {

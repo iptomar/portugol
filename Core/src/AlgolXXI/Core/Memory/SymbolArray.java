@@ -15,8 +15,8 @@ import AlgolXXI.Core.Parser.Token;
 import AlgolXXI.Core.Utils.IteratorArray;
 import AlgolXXI.Core.Utils.IteratorElemTokens;
 import AlgolXXI.Core.Utils.LanguageException;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
-import java.util.Vector;
 
 /**
  *Estrutura de dados dos arrays
@@ -66,7 +66,7 @@ public class SymbolArray extends SymbolDataComplex {
             newVars.addLine(it.getUnprocessed());
         }
 
-        data = new Vector<SymbolData>(dimension);
+        data = new ArrayList<SymbolData>(dimension);
         //copia da memoria
 //        Memory tmpMem = new Memory(mem);
         for (int i = 0; i < dimension; i++) {
@@ -90,7 +90,7 @@ public class SymbolArray extends SymbolDataComplex {
             throws LanguageException {
         super(Symbol.ARRAY, true);
         this.name = name;
-        data = new Vector<SymbolData>(dimension);  // construir um vector
+        data = new ArrayList<SymbolData>(dimension);  // construir um vector
 
     }
     //um Array de estruturas
@@ -102,7 +102,7 @@ public class SymbolArray extends SymbolDataComplex {
         name = it.getNext(); //tirar as 
 
         int dimension = Integer.valueOf(it.getNext());
-        data = new Vector<SymbolData>(dimension);  // construir um vector
+        data = new ArrayList<SymbolData>(dimension);  // construir um vector
 
         for (int i = 0; i < dimension; i++) {
             //SymbolStructure s = new SymbolStructure(model,name+ "[" + i + "]", level);
@@ -120,7 +120,7 @@ public class SymbolArray extends SymbolDataComplex {
         IteratorArray it = new IteratorArray(varName);
         name = varName;
         int dimension = model.getSize();
-        data = new Vector<SymbolData>(dimension);  // construir um vector
+        data = new ArrayList<SymbolData>(dimension);  // construir um vector
 
         for (int i = 0; i < dimension; i++) {
             SymbolData var = Memory.cloneDataSymbol(model.data.get(i),
@@ -150,7 +150,7 @@ public class SymbolArray extends SymbolDataComplex {
 
         int dimension = Integer.valueOf(it.getNext()); //numero de dimensoes
 
-        data = new Vector<SymbolData>(dimension);
+        data = new ArrayList<SymbolData>(dimension);
 
 
         nameVar = nameVar + it.getUnprocessed();
@@ -189,7 +189,7 @@ public class SymbolArray extends SymbolDataComplex {
 
         int dimension = Integer.valueOf(it.getNext()); //numero de dimensoes
 
-        data = new Vector<SymbolData>(dimension);
+        data = new ArrayList<SymbolData>(dimension);
 
 
         nameVar = nameVar + it.getUnprocessed();
