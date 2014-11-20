@@ -16,6 +16,7 @@
  */
 package AlgolXXI.Core.Parser;
 
+import java.util.ArrayList;
 import java.util.Vector;
 
 /**
@@ -227,12 +228,12 @@ public class Keyword {
         if( instruction.startsWith("INICIO"))           return  INICIO;
         if( instruction.startsWith("FIM"))              return  FIM;
          */
-        Vector<AlgolXXIKeyword> k = KeywordsDatabase.getNormalKeywords();
+        ArrayList<AlgolXXIKeyword> k = KeywordsDatabase.getNormalKeywords();
         String doStatement = KeywordsDatabase.getDoStatement();
 
         for (int i = 0; i < k.size(); i++) {
-            int id = k.elementAt(i).getId();
-            String key = k.elementAt(i).getWord();
+            int id = k.get(i).getId();
+            String key = k.get(i).getWord();
 
             if (id == LER && instruction.startsWith(key)) {
                 return id;
@@ -340,12 +341,12 @@ public class Keyword {
         //String instruction = instr.toUpperCase();
         String instruction = Normalize(instr);
 
-        Vector<AlgolXXIKeyword> k = KeywordsDatabase.getNormalKeywords();
+        ArrayList<AlgolXXIKeyword> k = KeywordsDatabase.getNormalKeywords();
         String doStatement = KeywordsDatabase.getDoStatement();
 
         for (int i = 0; i < k.size(); i++) {
-            int id = k.elementAt(i).getId();
-            String key = k.elementAt(i).getWord();
+            int id = k.get(i).getId();
+            String key = k.get(i).getWord();
 
             if (id == LER && instruction.startsWith(key)) {
                 return id;
@@ -462,10 +463,10 @@ public class Keyword {
         else return  DESCONHECIDO;
          */
 
-        Vector<AlgolXXIKeyword> k = KeywordsDatabase.getTypeKeywords();
+        ArrayList<AlgolXXIKeyword> k = KeywordsDatabase.getTypeKeywords();
         for (int i = 0; i < k.size(); i++) {
-            if (k.elementAt(i).getWord().equals(type)) {
-                return k.elementAt(i).getId();
+            if (k.get(i).getWord().equals(type)) {
+                return k.get(i).getId();
             }
         }
         return DESCONHECIDO;
@@ -478,9 +479,9 @@ public class Keyword {
      */
     public static boolean IsKeyword(String key) {
         String tmp = Normalize(key);
-        Vector<AlgolXXIKeyword> k = KeywordsDatabase.getNormalKeywords();
+        ArrayList<AlgolXXIKeyword> k = KeywordsDatabase.getNormalKeywords();
         for (int i = 0; i < k.size(); i++) {
-            if (tmp.equalsIgnoreCase(k.elementAt(i).getWord())) {
+            if (tmp.equalsIgnoreCase(k.get(i).getWord())) {
                 return true;
             }
         }

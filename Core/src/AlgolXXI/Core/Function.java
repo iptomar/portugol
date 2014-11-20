@@ -18,7 +18,7 @@ import AlgolXXI.Core.Memory.SymbolStructure;
 import AlgolXXI.Core.Parser.Keyword;
 import AlgolXXI.Core.Parser.ProgramTokens;
 import AlgolXXI.Core.Utils.LanguageException;
-import java.util.Vector;
+import java.util.ArrayList;
 
 public class Function {
 
@@ -51,7 +51,7 @@ public class Function {
      * @param other  b - modelo para copiar 
      * @param nextNode - proximo no executavel
      */
-    public Function(Function other, Vector<SymbolData> param,
+    public Function(Function other, ArrayList<SymbolData> param,
             NodeFluxo nextNode) throws LanguageException {
         //contruir uma nova memoria
         localMemory = new Memory();
@@ -67,7 +67,7 @@ public class Function {
         
     }
      // extrai os parametros da definição
-    public void addParameters(Vector<SymbolData> def,Vector<SymbolData> param)
+    public void addParameters(ArrayList<SymbolData> def,ArrayList<SymbolData> param)
             throws LanguageException {
         if( def == null) return;
         for(int i=0; i < def.size() ; i++){

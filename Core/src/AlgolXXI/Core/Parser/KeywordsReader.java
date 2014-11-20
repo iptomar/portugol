@@ -4,7 +4,7 @@
  */
 package AlgolXXI.Core.Parser;
 
-import java.util.Vector;
+import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.openide.util.Exceptions;
@@ -18,8 +18,8 @@ public class KeywordsReader {
 
     private static final String path = "AlgolXXI/Core/Parser/DefaultLang.xml";
 
-    public static Vector<AlgolXXIKeyword> getKeywords() {
-        Vector<AlgolXXIKeyword> out = new Vector<AlgolXXIKeyword>();
+    public static ArrayList<AlgolXXIKeyword> getKeywords() {
+        ArrayList<AlgolXXIKeyword> out = new ArrayList<AlgolXXIKeyword>();
         Document doc = null;
 
         DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
@@ -57,7 +57,7 @@ public class KeywordsReader {
                 String finalW = txtW.item(0).getNodeValue().trim();
                 String finalC = txtC.item(0).getNodeValue().trim();
 
-                out.addElement(new AlgolXXIKeyword(Integer.parseInt(finalID), finalW, finalC));
+                out.add(new AlgolXXIKeyword(Integer.parseInt(finalID), finalW, finalC));
             }
         }
        

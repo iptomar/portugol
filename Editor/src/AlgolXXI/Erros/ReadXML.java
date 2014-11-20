@@ -4,9 +4,7 @@
  */
 package AlgolXXI.Erros;
 
-import java.io.*;
-import java.util.Vector;
-import javax.xml.*;
+import java.util.ArrayList;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.*;
@@ -166,23 +164,23 @@ public class ReadXML {
      * Método que retorna um vector com todo o conteudo do ficheiro XMl de erros
      * @return Vector errors
      */
-    public Vector getXMLfile() {
-        Vector<Vector> errors = null;
+    public ArrayList getXMLfile() {
+        ArrayList<ArrayList> errors = null;
         try {
             Document doc = this.getXmlDoc();
             NodeList error = doc.getElementsByTagName("Error");
             int totalERROR = error.getLength();
 
-            errors = new Vector<Vector>(totalERROR);
+            errors = new ArrayList<ArrayList>(totalERROR);
 
             for (int i = 0; i < totalERROR; i++) {
-                Vector<String> tmp = new Vector<String>(4);
+                ArrayList<String> tmp = new ArrayList<String>(4);
                 Node firstERROR = error.item(i);
                 if (firstERROR.getNodeType() == Node.ELEMENT_NODE) {
 
                     //----Código e Tipo do Erro------------------------------------
-                    tmp.addElement(firstERROR.getAttributes().item(0).getNodeValue());
-                    tmp.addElement(firstERROR.getAttributes().item(1).getNodeValue());
+                    tmp.add(firstERROR.getAttributes().item(0).getNodeValue());
+                    tmp.add(firstERROR.getAttributes().item(1).getNodeValue());
                     Element elementERROR = (Element) firstERROR;
 
                     //--------------------Descrição--------------------------------
@@ -190,15 +188,15 @@ public class ReadXML {
                     Element descriptionItem = (Element) description.item(0);
                     NodeList descriptionItemList = descriptionItem.getChildNodes();
 
-                    tmp.addElement(descriptionItemList.item(0).getNodeValue());
+                    tmp.add(descriptionItemList.item(0).getNodeValue());
                     //--------------------Solução--------------------------------
                     NodeList solution = elementERROR.getElementsByTagName("Solution");
                     Element solutionItem = (Element) solution.item(0);
                     NodeList solutionItemList = solutionItem.getChildNodes();
 
-                    tmp.addElement(solutionItemList.item(0).getNodeValue());
+                    tmp.add(solutionItemList.item(0).getNodeValue());
 
-                    errors.addElement(tmp);
+                    errors.add(tmp);
                 }
 
             }
@@ -231,8 +229,8 @@ public class ReadXML {
      * @param ERROR_ID código do erro
      * @return vector
      */
-    public Vector<String> LanguageException(int line, int ERROR_ID){
-        Vector<String> languageException = new Vector<String>();
+    public ArrayList<String> LanguageException(int line, int ERROR_ID){
+        ArrayList<String> languageException = new ArrayList<String>();
         languageException.add(Integer.toString(line));
         languageException.add(this.getDescription(Integer.toString(ERROR_ID)));
         languageException.add(this.getSolution(Integer.toString(ERROR_ID)));        
@@ -248,8 +246,8 @@ public class ReadXML {
      * @param exception - vector com todas as variáveis a alterar na descrição do erro
      * @return vector
      */
-    public Vector<String> LanguageException(int line, int ERROR_ID, Vector<String> exception) {
-        Vector<String> languageException = new Vector<String>();
+    public ArrayList<String> LanguageException(int line, int ERROR_ID, ArrayList<String> exception) {
+        ArrayList<String> languageException = new ArrayList<String>();
         String strDescription = "";
         String descriptionAux = this.getDescription(Integer.toString(ERROR_ID));
         String[] aux = descriptionAux.split("'");
@@ -277,8 +275,8 @@ public class ReadXML {
      * @param solution - solução do erro
      * @return vector
      */
-    public Vector<String> LanguageException(int line, String description, String solution){
-        Vector<String> languageException = new Vector<String>();
+    public ArrayList<String> LanguageException(int line, String description, String solution){
+        ArrayList<String> languageException = new ArrayList<String>();
         languageException.add(Integer.toString(line));
         languageException.add(description);
         languageException.add(solution);        

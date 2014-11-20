@@ -21,6 +21,7 @@ import AlgolXXI.Core.Parser.ProgramTokens;
 import AlgolXXI.Core.Parser.Token;
 import AlgolXXI.Core.Utils.IteratorLineTokens;
 import AlgolXXI.Core.Utils.LanguageException;
+import java.util.ArrayList;
 import java.util.Vector;
 
 public class FunctionFluxo {
@@ -32,7 +33,7 @@ public class FunctionFluxo {
     /**
      * Parametros do fluxo 
      */
-    private Vector<SymbolData> params;
+    private ArrayList<SymbolData> params;
     /**
      * retorno do fluxo
      */
@@ -52,7 +53,7 @@ public class FunctionFluxo {
 
     public FunctionFluxo(ProgramTokens prog, Memory mem, int level, int ID) throws LanguageException {
         this.memory = mem;
-        params = new Vector<SymbolData>();
+        params = new ArrayList<SymbolData>();
         getDefinition(prog.getLine(0), level);
         begin = null;
         end = null;
@@ -205,7 +206,7 @@ public class FunctionFluxo {
         return txt.toString().trim();
     }
 
-    public Vector<SymbolData> getParams() {
+    public ArrayList<SymbolData> getParams() {
         return params;
     }
 

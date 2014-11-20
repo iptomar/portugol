@@ -9,8 +9,8 @@ import AlgolXXI.Core.Memory.SymbolDataComplex;
 import AlgolXXI.Core.Memory.SymbolStructure;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.util.ArrayList;
 import java.util.Enumeration;
-import java.util.Vector;
 import javax.swing.JPanel;
 import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
@@ -24,13 +24,13 @@ import javax.swing.tree.TreePath;
  */
 public class MemoryDisplay extends JPanel {
 
-    private Vector<SymbolData> symbols;
+    private ArrayList<SymbolData> symbols;
     private int blockid;
     private DynamicTree treePanel;
     private boolean flag = false;
 
     public MemoryDisplay(int id) {
-        symbols = new Vector<SymbolData>();
+        symbols = new ArrayList<SymbolData>();
         treePanel = new DynamicTree();
         //populateTree(treePanel);
 
@@ -65,7 +65,7 @@ public class MemoryDisplay extends JPanel {
         treePanel.clear();
     }
 
-    public void update(Vector<SymbolData> symbolsf) {
+    public void update(ArrayList<SymbolData> symbolsf) {
         for (int i = 0; i < symbolsf.size(); i++) {
             if (isMember(symbolsf.get(i))) {
                 TreePath node = findByName(treePanel.tree, new String[]{"Memoria", symbolsf.get(i).getName()});
@@ -86,7 +86,7 @@ public class MemoryDisplay extends JPanel {
         }
     }
 
-    SymbolData existsStruct(Vector<SymbolData> data) {
+    SymbolData existsStruct(ArrayList<SymbolData> data) {
         for (SymbolData sd : data) {
             if (sd instanceof SymbolStructure) {
                 return sd;
@@ -96,7 +96,7 @@ public class MemoryDisplay extends JPanel {
     }
 
     private void adicionaComplexo(DefaultMutableTreeNode parent, SymbolData symbolf) {
-        Vector<SymbolData> dataf = ((SymbolDataComplex) symbolf).getData();
+        ArrayList<SymbolData> dataf = ((SymbolDataComplex) symbolf).getData();
         for (SymbolData sd1 : dataf) {
             DefaultMutableTreeNode parent_aux = treePanel.addObject(parent, sd1.getName(), true);
 
