@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
 <filesystem>
     <folder name="Shortcuts">
         <file name="D-C.shadow">
@@ -101,19 +101,16 @@
         <file name="GoTo_hidden"/>
         <file name="Tools_hidden"/>
         <file name="Source_hidden"/>
-        <folder name="Conversores">
-            <file name="AlgolXXI-Editor-ActionConvertJava.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ActionConvertJava.instance"/>
-                <attr name="position" intvalue="100"/>
-            </file>
+        <folder name="Conversor">
+            <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/Conversor"/>
             <attr name="position" intvalue="500"/>
+            <file name="AlgolXXI-Editor-ActionConvertJava.instance">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Stop.instance"/>
+            </file>
         </folder>
         <folder name="Edit">
-            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
-            <file name="AlgolXXI-Editor-Apaga.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Apaga.instance"/>
-                <attr name="position" intvalue="1300"/>
-            </file>
+            <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/Edit"/>
+ 
             <file name="AlgolXXI-Editor-Colar.shadow">
                 <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Colar.instance"/>
                 <attr name="position" intvalue="1200"/>
@@ -144,17 +141,40 @@
             <file name="org-netbeans-modules-editor-MainMenuAction$StopMacroRecordingAction.instance_hidden"/>
             <file name="org-openide-actions-CopyAction.instance_hidden"/>
             <file name="org-openide-actions-CutAction.instance_hidden"/>
-            <file name="org-openide-actions-DeleteAction.instance_hidden"/>
+          
             <file name="org-openide-actions-FindAction.instance_hidden"/>
             <file name="org-openide-actions-PasteAction.instance_hidden"/>
             <file name="org-openide-actions-ReplaceAction.instance_hidden"/>
         </folder>
         <folder name="File">
-            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
-            <file name="AlgolXXI-Editor-Abrir.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Abrir.instance"/>
-                <attr name="position" intvalue="0"/>
+            <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/File"/>
+            <file name="AlgolXXI-Editor-Novo.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
+                <attr name="position" intvalue="100"/>
             </file>
+            <file name="AlgolXXI-Editor-Abrir.instance">
+                <attr name="position" intvalue="200"/>
+                
+            </file>
+            <file name="Separator.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="300"/>
+            </file> 
+            <file name="AlgolXXI-Editor-Guardar.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Guardar.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+            <file name="org-openide-actions-SaveAllAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-SaveAllAction.instance"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+            <file name="AlgolXXI-Editor-GuardarComo.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-GuardarComo.instance"/>
+                <attr name="position" intvalue="600"/>
+            </file>
+        </folder>
+        <folder name="System">
+            <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/System"/>
             <file name="AlgolXXI-Editor-ExecutaPasso.shadow">
                 <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaPasso.instance"/>
                 <attr name="position" intvalue="-94"/>
@@ -163,18 +183,7 @@
                 <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaTempo.instance"/>
                 <attr name="position" intvalue="-93"/>
             </file>
-            <file name="AlgolXXI-Editor-Guardar.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Guardar.instance"/>
-                <attr name="position" intvalue="100"/>
-            </file>
-            <file name="AlgolXXI-Editor-GuardarComo.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-GuardarComo.instance"/>
-                <attr name="position" intvalue="750"/>
-            </file>
-            <file name="AlgolXXI-Editor-Novo.shadow">
-                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
-                <attr name="position" intvalue="-100"/>
-            </file>
+           
             <file name="AlgolXXI-Editor-Executa.shadow">
                 <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Executa.instance"/>
                 <attr name="position" intvalue="-95"/>
@@ -187,20 +196,9 @@
                 <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Stop.instance"/>
                 <attr name="position" intvalue="-91"/>
             </file>
-            <file name="AlgolXXI-Editor-separatorAfter.instance">
-                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
-                <attr name="position" intvalue="-90"/>
-            </file>
-            <attr name="position" intvalue="-100"/>
-            <file name="Separator3.instance_hidden"/>
-            <file name="org-openide-actions-PageSetupAction.instance_hidden"/>
-            <file name="org-openide-actions-PrintAction.instance_hidden"/>
-            <file name="org-openide-actions-SaveAction.instance_hidden"/>
-            <file name="org-openide-actions-SaveAllAction.instance_hidden"/>
-            <file name="org-openide-actions-SaveAsAction.shadow_hidden"/>
         </folder>
         <folder name="Help">
-            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
+            <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/Help"/>
             <file name="AlgolXXI-Editor-Ajuda.shadow">
                 <attr name="originalFile" stringvalue="Actions/Help/AlgolXXI-Editor-Ajuda.instance"/>
                 <attr name="position" intvalue="1200"/>
@@ -208,7 +206,7 @@
         </folder>
         <file name="View_hidden"/>
         <folder name="Window">
-            <attr name="SystemFileSystem.localizingBundle" stringvalue="AlgolXXI.Editor.Bundle"/>
+            <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/Window"/>
             <file name="CloneDocumentAction.shadow_hidden"/>
             <file name="ProgressListAction.shadow_hidden"/>
             <file name="org-netbeans-core-actions-GlobalPropertiesAction.shadow_hidden"/>
@@ -225,70 +223,183 @@
             </folder>
         </folder>
     </folder>
-    <folder name="Toolbars">
-        <folder name="Ficheiro">
-            <file name="AlgolXXI-Editor-Apaga.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Apaga.instance"/>
+    
+    
+    <folder name="Ribbon">
+        <folder name="AppMenu">
+            <file name="AlgolXXI-Editor-Novo.shadow">
+                <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Novo"/>
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="AlgolXXI-Editor-Abrir.instance">
                 <attr name="position" intvalue="200"/>
+                
             </file>
-            <attr name="position" intvalue="-100"/>
-        </folder>
-        <folder name="Edit">
-            <attr name="position" intvalue="100"/>
-            <file name="AlgolXXI-Editor-Colar.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Colar.instance"/>
-                <attr name="position" intvalue="350"/>
-            </file>
-            <file name="AlgolXXI-Editor-Copiar.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Copiar.instance"/>
+            <file name="Separator.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
                 <attr name="position" intvalue="300"/>
+            </file> 
+            <file name="AlgolXXI-Editor-Guardar.shadow">
+                <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Guardar"/>
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Guardar.instance"/>
+                <attr name="position" intvalue="400"/>
             </file>
+            <file name="AlgolXXI-Editor-GuardarComo.shadow">
+                <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_GuardarComo"/>
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-GuardarComo.instance"/>
+                <attr name="position" intvalue="600"/>
+            </file>
+        </folder>
+        <folder name="AppMenuFooter">
             <file name="AlgolXXI-Editor-Opcoes.shadow">
+                <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Opcoes"/>
                 <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Opcoes.instance"/>
                 <attr name="position" intvalue="600"/>
             </file>
-            <file name="AlgolXXI-Editor-Procurar.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Procurar.instance"/>
-                <attr name="position" intvalue="700"/>
+            <file name="org-netbeans-core-actions-SystemExit.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/org-netbeans-core-actions-SystemExit.instance"/>
+                <attr name="position" intvalue="2300"/>
             </file>
-            <file name="AlgolXXI-Editor-ProcurarProximo.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ProcurarProximo.instance"/>
-                <attr name="position" intvalue="8000"/>
-            </file>
-            <file name="AlgolXXI-Editor-Substituir.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Substituir.instance"/>
-                <attr name="position" intvalue="8100"/>
-            </file>
-            <file name="org-openide-actions-CopyAction.instance_hidden"/>
-            <file name="org-openide-actions-CutAction.instance_hidden"/>
-            <file name="org-openide-actions-PasteAction.instance_hidden"/>
         </folder>
-        <folder name="File">
-            <file name="AlgolXXI-Editor-Executa.shadow">
-                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Executa.instance"/>
+        <folder name="TaskBar">
+            <file name="AlgolXXI-Editor-Novo.shadow">
+                <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Novo"/>
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
                 <attr name="position" intvalue="100"/>
             </file>
-            <file name="AlgolXXI-Editor-ExecutaPasso.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaPasso.instance"/>
+            <file name="AlgolXXI-Editor-Abrir.instance">
+                <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Abrir"/>
+                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Abrir.instance"/>
                 <attr name="position" intvalue="200"/>
             </file>
-            <file name="AlgolXXI-Editor-ExecutaTempo.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaTempo.instance"/>
-                <attr name="position" intvalue="250"/>
+            <file name="AlgolXXI-Editor-Guardar.shadow">
+                <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Guardar"/>
+                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Guardar.instance"/>
+                <attr name="position" intvalue="400"/>
             </file>
-            <file name="AlgolXXI-Editor-Novo.shadow">
-                <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
-                <attr name="position" intvalue="-100"/>
+            <file name="Separator2.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="500"/>
             </file>
-            <file name="AlgolXXI-Editor-Pausa.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Pausa.instance"/>
-                <attr name="position" intvalue="275"/>
+            <file name="org-openide-actions-RedoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-RedoAction.instance"/>
+                <attr name="position" intvalue="600"/>
+                <attr name="iconBase" stringvalue="com/pinkmatter/test/flamingo/resources/Redo.png"/>
             </file>
-            <file name="AlgolXXI-Editor-Stop.shadow">
-                <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Stop.instance"/>
-                <attr name="position" intvalue="300"/>
+            <file name="org-openide-actions-UndoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-UndoAction.instance"/>
+                <attr name="position" intvalue="700"/>
+                <attr name="iconBase" stringvalue="com/pinkmatter/test/flamingo/resources/Undo.png"/>
             </file>
-            <file name="org-openide-actions-SaveAllAction.instance_hidden"/>
+
         </folder>
-    </folder>
+        
+        <folder name="HelpButton">
+            <file name="AlgolXXI-Editor-Ajuda.shadow">
+                <attr name="position" intvalue="500"/>
+                <attr name="originalFile" stringvalue="Actions/Help/AlgolXXI-Editor-Ajuda.instance"/>
+            </file>
+        </folder>
+        <folder name="TaskPanes">
+            <folder name="Home">
+                <folder name="File">
+                    <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/File"/>
+                    <file name="AlgolXXI-Editor-Novo.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Novo"/>
+                        <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Novo.instance"/>
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-Abrir.instance">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Abrir"/>
+                        <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Abrir.instance"/>
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-Guardar.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Guardar"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Guardar.instance"/>
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                    <file name="Separator1.instance">
+                        <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                        <attr name="position" intvalue="450"/>
+                    </file>
+                    <file name="org-openide-actions-RedoAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-RedoAction.instance"/>
+                        <attr name="position" intvalue="600"/>
+                        <attr name="iconBase" stringvalue="com/pinkmatter/test/flamingo/resources/Redo.png"/>
+                    </file>
+                    <file name="org-openide-actions-UndoAction.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/org-openide-actions-UndoAction.instance"/>
+                        <attr name="position" intvalue="700"/>
+                        <attr name="iconBase" stringvalue="com/pinkmatter/test/flamingo/resources/Undo.png"/>
+                    </file>
+                </folder>
+                <folder name="Main">
+                    <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/System"/>
+                    <attr name="position" intvalue="200"/>
+                    <file name="AlgolXXI-Editor-Executa.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Executa"/>
+                        <attr name="originalFile" stringvalue="Actions/System/AlgolXXI-Editor-Executa.instance"/>
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-ExecutaPasso.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_ExecutaPasso"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaPasso.instance"/>
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-ExecutaTempo.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_ExecutaTempo"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ExecutaTempo.instance"/>
+                        <attr name="position" intvalue="250"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-Pausa.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Pausa"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Pausa.instance"/>
+                        <attr name="position" intvalue="275"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-Stop.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Stop"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Stop.instance"/>
+                        <attr name="position" intvalue="300"/>
+                    </file>
+                </folder>
+                <folder name="Edit">
+                    <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/Edit"/>
+                    <attr name="position" intvalue="300"/>
+                    <file name="AlgolXXI-Editor-Colar.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Colar"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Colar.instance"/>
+                        <attr name="position" intvalue="100"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-Copiar.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Copiar"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Copiar.instance"/>
+                        <attr name="position" intvalue="200"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-Procurar.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_Procurar"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Procurar.instance"/>
+                        <attr name="position" intvalue="300"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-ProcurarProximo.shadow">
+                        <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#CTL_ProcurarProximo"/>
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-ProcurarProximo.instance"/>
+                        <attr name="position" intvalue="400"/>
+                    </file>
+                    <file name="AlgolXXI-Editor-Substituir.shadow">
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Substituir.instance"/>
+                        <attr name="position" intvalue="500"/>
+                    </file>
+                </folder>
+                <folder name="Conversor">
+                    <attr name="displayName" bundlevalue="AlgolXXI.Editor.Bundle#Menu/Conversor"/>
+                    <attr name="position" intvalue="400"/>
+                    <file name="AlgolXXI-Editor-ActionConvertJava.instance">
+                        <attr name="originalFile" stringvalue="Actions/Edit/AlgolXXI-Editor-Stop.instance"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder> 
 </filesystem>

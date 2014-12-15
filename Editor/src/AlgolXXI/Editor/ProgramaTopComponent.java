@@ -1296,6 +1296,16 @@ private void under_tabpaneStateChanged(javax.swing.event.ChangeEvent evt) {//GEN
         //return compiler.compile(args);
         return 1;
     }
+    public void setColorConsola(Color backgroudColor,Color textColor){
+        this.getConsole().setColor(backgroudColor,textColor);
+       
+    }
+    
+    public void setColorCodigo(Color codeBackground){
+        this.codigo.setBackground(codeBackground);
+    }
+    
+    
 
     public void setFontConsola(Font fontf) {
         if (fontf != null) {

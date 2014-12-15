@@ -9,6 +9,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JEditorPane;
 import javax.swing.JPopupMenu;
 import javax.swing.JMenuItem;
+import org.openide.util.ImageUtilities;
 
 import org.openide.util.Utilities;
 
@@ -36,12 +37,12 @@ public class PopupMenu implements ActionListener, ItemListener {
         popup = new JPopupMenu();
 
         menuItem = new JMenuItem("Copiar");
-        menuItem.setIcon(new ImageIcon(Utilities.loadImage("AlgolXXI/Editor/Images/copy.png", true)));
+        menuItem.setIcon(new ImageIcon(ImageUtilities.loadImage("AlgolXXI/Editor/Images/copy.png", true)));
         menuItem.addActionListener(this);
         popup.add(menuItem);
 
         menuItem = new JMenuItem("Colar");
-        menuItem.setIcon(new ImageIcon(Utilities.loadImage("AlgolXXI/Editor/Images/paste.png", true)));
+        menuItem.setIcon(new ImageIcon(ImageUtilities.loadImage("AlgolXXI/Editor/Images/paste.png", true)));
         menuItem.addActionListener(this);
         popup.add(menuItem);
 
@@ -49,12 +50,12 @@ public class PopupMenu implements ActionListener, ItemListener {
         popup.add(menuItem);
 
         menuItem = new JMenuItem(bundle.getString("Converter_para_C++"));
-        menuItem.setIcon(new ImageIcon(Utilities.loadImage("AlgolXXI/Editor/Images/text_uppercase.png", true)));
+        menuItem.setIcon(new ImageIcon(ImageUtilities.loadImage("AlgolXXI/Editor/Images/text_uppercase.png", true)));
         menuItem.addActionListener(this);
         popup.add(menuItem);
 
         menuItem = new JMenuItem(bundle.getString("Converter_para_Java"));
-        menuItem.setIcon(new ImageIcon(Utilities.loadImage("AlgolXXI/Editor/Images/text_uppercase.png", true)));
+        menuItem.setIcon(new ImageIcon(ImageUtilities.loadImage("AlgolXXI/Editor/Images/text_uppercase.png", true)));
         menuItem.addActionListener(this);
         popup.add(menuItem);
 
