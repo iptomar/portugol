@@ -4,6 +4,7 @@
  */
 package AlgolXXI.Editor.CodeEditor;
 
+import java.awt.Color;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -26,12 +27,15 @@ public class PortugolStyle {
     private AlgolXXIStyle lexiconStyle;
     private AlgolXXIStyle valueStyle;
     private AlgolXXIStyle operatorStyle;
+    private Color codeBackground; //added by André dos Santos
     //Console
     private String consfontFamily;
     private int consfontSize;
     private String[] consColor;
     private boolean consBold;
     private boolean consItalic;
+    private Color consBackgroundColor;//added by André dos Santos
+    private Color consTextColor;//added by André dos Santos
     //Fluxogram
     private String fluxfontFamily;
     private int fluxfontSize;
@@ -44,6 +48,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável String <fontFamily>.
+     *
      * @return fontFamily, String
      */
     public String getFontFamily() {
@@ -52,6 +57,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável String <fontFamily>.
+     *
      * @param fontFamily String
      */
     public void setFontFamily(String fontFamily) {
@@ -60,6 +66,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável int <fontSize>.
+     *
      * @return fontSize, int
      */
     public int getFontSize() {
@@ -68,6 +75,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável int <fontSize>.
+     *
      * @param fontSize int
      */
     public void setFontSize(int fontSize) {
@@ -76,6 +84,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável int <fontSize>.
+     *
      * @param fontSize String
      */
     public void setFontSize(String fontSize) {
@@ -83,10 +92,12 @@ public class PortugolStyle {
     }
 
     /**
-     * Método que permite adicionar um estilo a um tipo de keywords, operadores, comentários
-     * ou código normal.
-     * @param style AlgolXXIStyle, para o estilo 
-     * @param cat String, com o tipo de keywords, operadores, comentários ou código normal
+     * Método que permite adicionar um estilo a um tipo de keywords, operadores,
+     * comentários ou código normal.
+     *
+     * @param style AlgolXXIStyle, para o estilo
+     * @param cat String, com o tipo de keywords, operadores, comentários ou
+     * código normal
      */
     public void addStyle(AlgolXXIStyle style, String cat) {
         if (cat.equals("NORMAL")) {
@@ -110,6 +121,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <normalStyle>.
+     *
      * @return normalStyle, AlgolXXIStyle
      */
     public AlgolXXIStyle getNormalStyle() {
@@ -118,6 +130,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <normalStyle>.
+     *
      * @param normalStyle AlgolXXIStyle
      */
     public void setNormalStyle(AlgolXXIStyle normalStyle) {
@@ -126,6 +139,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <commentStyle>.
+     *
      * @return commentStyle AlgolXXIStyle
      */
     public AlgolXXIStyle getCommentStyle() {
@@ -134,6 +148,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <commentStyle>.
+     *
      * @param commentStyle AlgolXXIStyle
      */
     public void setCommentStyle(AlgolXXIStyle commentStyle) {
@@ -142,6 +157,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <stringStyle>.
+     *
      * @return stringStyle, AlgolXXIStyle
      */
     public AlgolXXIStyle getStringStyle() {
@@ -150,6 +166,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <stringStyle>.
+     *
      * @param stringStyle AlgolXXIStyle
      */
     public void setStringStyle(AlgolXXIStyle stringStyle) {
@@ -158,6 +175,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <blockStyle>.
+     *
      * @return blockStyle, AlgolXXIStyle
      */
     public AlgolXXIStyle getBlockStyle() {
@@ -166,6 +184,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <blockStyle>.
+     *
      * @param blockStyle AlgolXXIStyle
      */
     public void setBlockStyle(AlgolXXIStyle blockStyle) {
@@ -174,6 +193,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <typeStyle>.
+     *
      * @return typeStyle, AlgolXXIStyle
      */
     public AlgolXXIStyle getTypeStyle() {
@@ -182,6 +202,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <typeStyle>.
+     *
      * @param typeStyle AlgolXXIStyle
      */
     public void setTypeStyle(AlgolXXIStyle typeStyle) {
@@ -190,6 +211,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <lexiconStyle>.
+     *
      * @return lexiconStyle, AlgolXXIStyle
      */
     public AlgolXXIStyle getLexiconStyle() {
@@ -198,6 +220,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <lexiconStyle>.
+     *
      * @param lexiconStyle AlgolXXIStyle
      */
     public void setLexiconStyle(AlgolXXIStyle lexiconStyle) {
@@ -206,6 +229,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <valueStyle>
+     *
      * @return valueStyle, AlgolXXIStyle
      */
     public AlgolXXIStyle getValueStyle() {
@@ -214,6 +238,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <valueStyle>
+     *
      * @param valueStyle AlgolXXIStyle
      */
     public void setValueStyle(AlgolXXIStyle valueStyle) {
@@ -222,6 +247,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável AlgolXXIStyle <operatorStyle>
+     *
      * @return operatorStyle, AlgolXXIStyle
      */
     public AlgolXXIStyle getOperatorStyle() {
@@ -230,6 +256,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável AlgolXXIStyle <operatorStyle>
+     *
      * @param operatorStyle AlgolXXIStyle
      */
     public void setOperatorStyle(AlgolXXIStyle operatorStyle) {
@@ -238,6 +265,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável String <consfontFamily>.
+     *
      * @return consfontFamily, String
      */
     public String getConsfontFamily() {
@@ -246,6 +274,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável String <consfontFamily>.
+     *
      * @param consfontFamily String
      */
     public void setConsfontFamily(String fluxfontFamily) {
@@ -254,6 +283,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável int <consfontSize>.
+     *
      * @return consfontSize, int
      */
     public int getConsfontSize() {
@@ -262,6 +292,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável int <consfontSize>.
+     *
      * @param consfontSize int
      */
     public void setConsfontSize(int fluxfontSize) {
@@ -270,6 +301,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável int <consfontSize>.
+     *
      * @param consfontSize String
      */
     public void setConsfontSize(String fluxfontSize) {
@@ -278,6 +310,7 @@ public class PortugolStyle {
 
     /**
      * Selector para a variável String[] <consColor>.
+     *
      * @return consColor, String[]
      */
     public String[] getConsColor() {
@@ -286,6 +319,7 @@ public class PortugolStyle {
 
     /**
      * Modificador para a variável String[] <consColor>.
+     *
      * @param r,g,b String[]
      */
     public void setConsColor(String r, String g, String b) {
@@ -294,7 +328,43 @@ public class PortugolStyle {
     }
 
     /**
-     * 
+     * Modificador para variável String[] <consColor>.
+     *
+     * @author - André dos Santos
+     * @param caretColor
+     */
+    public void setConsColor(Color caretColor) {
+        String[] cor = {"" + caretColor.getRed(), "" + caretColor.getGreen(), "" + caretColor.getBlue()};
+        this.consColor = cor;
+    }
+
+    public Color getConsBackgroundColor() {
+        return consBackgroundColor;
+    }
+
+    public void setConsBackgroundColor(Color consBackgroundColor) {
+        this.consBackgroundColor = consBackgroundColor;
+    }
+
+    public Color getConsTextColor() {
+        return consTextColor;
+    }
+
+    public void setConsTextColor(Color consTextColor) {
+        this.consTextColor = consTextColor;
+    }
+    
+    public Color getCodeBackground() {
+        return codeBackground;
+    }
+
+    public void setCodeBackground(Color codeBackground) {
+        this.codeBackground = codeBackground;
+    }
+    
+
+    /**
+     *
      * @param path
      */
     public void writeToFile(String path) {
@@ -428,6 +498,17 @@ public class PortugolStyle {
             out.write(tab + tab + tab + "<size>" + Integer.toString(this.consfontSize) + "</size>\n");
             out.write(tab + tab + tab + "<bold>" + this.isConsBold() + "</bold>\n");
             out.write(tab + tab + tab + "<italic>" + this.isConsItalic() + "</italic>\n");
+            out.write(tab + tab + tab + "<color>\n");
+            if (this.consColor != null) {
+                out.write(tab + tab + tab + tab + "<r>" + this.consTextColor.getRed() + "</r>\n");
+                out.write(tab + tab + tab + tab + "<g>" + this.consTextColor.getGreen() + "</g>\n");
+                out.write(tab + tab + tab + tab + "<b>" + this.consTextColor.getBlue() + "</b>\n");
+            } else {
+                out.write(tab + tab + tab + tab + "<r>" + 255 + "</r>\n");
+                out.write(tab + tab + tab + tab + "<g>" + 255 + "</g>\n");
+                out.write(tab + tab + tab + tab + "<b>" + 255 + "</b>\n");
+            }
+            out.write(tab + tab + tab + "</color>\n");
             out.write(tab + tab + "</font>\n");
 
             out.write(tab + tab + "<color>\n");
@@ -531,4 +612,5 @@ public class PortugolStyle {
             this.consBold = false;
         }
     }
+
 }

@@ -5,6 +5,10 @@
 package AlgolXXI.Editor;
 
 import javax.xml.parsers.ParserConfigurationException;
+import org.openide.awt.ActionID;
+import org.openide.awt.ActionReference;
+import org.openide.awt.ActionReferences;
+import org.openide.awt.ActionRegistration;
 import org.openide.util.Exceptions;
 import org.openide.util.HelpCtx;
 import org.openide.util.NbBundle;
@@ -12,7 +16,7 @@ import org.openide.util.actions.CallableSystemAction;
 /**
  * Classe que permite definir as acções do botão Abrir
  * @author Apocas
- */
+*/
 public final class Abrir extends CallableSystemAction {
 
    /**

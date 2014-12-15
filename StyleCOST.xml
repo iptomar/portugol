@@ -89,9 +89,14 @@
             <size>14</size>
             <bold>false</bold>
             <italic>false</italic>
+            <color>
+                <r>153</r>
+                <g>153</g>
+                <b>0</b>
+            </color>
         </font>
         <color>
-            <r>0</r>
+            <r>153</r>
             <g>0</g>
             <b>0</b>
         </color>

@@ -1,144 +1,144 @@
 <Errors>
-<!--Lista Com todos os Erros para o Programa ALGOLXXi-->
-<!--Nota: sempre que for necessário adicionar uma variável à descrição de um erro usar obrigatóriamente a notação '@variable-->
-<Error Code="0" Type="Language Exception">
-<Description>Mensagem por defeito - Ocorreu um erro</Description>
-<Solution>....</Solution>
-</Error>
-<Error Code="1" Type="Language Exception">
-<Description>Os caracteres só podem ter uma letra.</Description>
-<Solution>....</Solution>
-</Error>
-<Error Code="2" Type="Language Exception">
-<Description>O símbolo '@variable  é CONSTANTE, e por isso não pode receber valores.</Description>
-<Solution>Altere o simbolo para variável.</Solution>
-</Error>
-<Error Code="3" Type="Language Exception">
-<Description>Valor não permitido para caracteres.</Description>
-<Solution>Introduza um caracter.</Solution>
-</Error>
-<Error Code="4" Type="Language Exception">
-<Description>Excesso de valores para a inicialização do array.</Description>
-<Solution>Verifique o número de valores.</Solution>
-</Error>
-<Error Code="5" Type="Language Exception">
-<Description>Valor não permitido para inteiros.</Description>
-<Solution>Introduza um valor inteiro.</Solution>
-</Error>
-<Error Code="6" Type="Language Exception">
-<Description>'@variable não é um valor logico.</Description>
-<Solution>Verifique o valor.</Solution>
-</Error>
-<Error Code="7" Type="Language Exception">
-<Description>Valor não permito para lógicos.</Description>
-<Solution>Introduza um valor lógico.</Solution>
-</Error>
-<Error Code="8" Type="Language Exception">
-<Description>Valor não permitido para reais.</Description>
-<Solution>Introduza um valor real.</Solution>
-</Error>
-<Error Code="9" Type="Language Exception">
-<Description>Valor não permitido para String.</Description>
-<Solution>Introduza uma String.</Solution>
-</Error>
-<Error Code="10" Type="Exception">
-<Description>ERRO no Operador aritmético [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="11" Type="Exception">
-<Description>ERROR Aritmetic - aritméticos com dois parâmetros.</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="12" Type="Exception">
-<Description>Operador [ '@variable ] não está definido.</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="13" Type="Exception">
-<Description>Divisão por ZERO.</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="14" Type="Exception">
-<Description>ERRO nos parâmetros do Operador Relacional [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="15" Type="Exception">
-<Description>ERRO na prioridade do Operador Relacional [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="16" Type="Exception">
-<Description>ERRO RELACIONAIS - relacionais com dois parâmetros.</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="17" Type="Exception">
-<Description>ERRO no tipo de parâmetros do operador : '@variable .</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="18" Type="Exception">
-<Description>ERRO no cálculo booleano do Operador Relacional [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="19" Type="Exception">
-<Description>ERRO no cálculo do Operador Relacional [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="20" Type="Exception">
-<Description>ERRO no número de parâmetros do simbolo: '@variable .</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="21" Type="Exception">
-<Description>A Expressão [ '@variable ] está  mal construida.</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="22" Type="Exception">
-<Description>ERRO Parâmetros de OPERADOR DESCONHECIDO [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="23" Type="Exception">
-<Description>ERRO na Prioridade de [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="24" Type="Exception">
-<Description>ERRO no cálculo de OPERADOR DESCONHECIDO [ '@variable ] '@variable .</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="25" Type="Exception">
-<Description>ERRO de operador de funções desconhecido: '@variable</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="26" Type="Exception">
-<Description>ERRO nos parâmetros das funções [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="27" Type="Exception">
-<Description>ERRO na Prioridade das funções [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="28" Type="Exception">
-<Description>ERRO função parâmetros errados [ '@variable ] '@variable .</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="29" Type="Exception">
-<Description>ERRO função Desconhecida 2 [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="30" Type="Exception">
-<Description>ERRO função Desconhecida 1 [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="31" Type="Exception">
-<Description>ERRO nos parâmetros do Lógico [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="32" Type="Exception">
-<Description>ERRO na prioridade do Logico [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="33" Type="Exception">
-<Description>ERRO parâmetros lógicos errados [ '@variable ] '@variable .</Description>
-<Solution>...</Solution>
-</Error>
-<Error Code="34" Type="Exception">
-<Description>ERRO - Operador Lógico binário desconhecido [ '@variable ].</Description>
-<Solution>...</Solution>
-</Error>
+    <!--Lista Com todos os Erros para o Programa ALGOLXXi-->
+    <!--Nota: sempre que for necessário adicionar uma variável à descrição de um erro usar obrigatóriamente a notação '@variable-->
+    <Error Code="0" Type="Language Exception">
+        <Description>Mensagem por defeito - Ocorreu um erro</Description>
+        <Solution>....</Solution>
+    </Error>
+    <Error Code="1" Type="Language Exception">
+        <Description>Os caracteres só podem ter uma letra.</Description>
+        <Solution>....</Solution>
+    </Error>
+    <Error Code="2" Type="Language Exception">
+        <Description>O símbolo '@variable  é CONSTANTE, e por isso não pode receber valores.</Description>
+        <Solution>Altere o simbolo para variável.</Solution>
+    </Error>
+    <Error Code="3" Type="Language Exception">
+        <Description>Valor não permitido para caracteres.</Description>
+        <Solution>Introduza um caracter.</Solution>
+    </Error>
+    <Error Code="4" Type="Language Exception">
+        <Description>Excesso de valores para a inicialização do array.</Description>
+        <Solution>Verifique o número de valores.</Solution>
+    </Error>
+    <Error Code="5" Type="Language Exception">
+        <Description>Valor não permitido para inteiros.</Description>
+        <Solution>Introduza um valor inteiro.</Solution>
+    </Error>
+    <Error Code="6" Type="Language Exception">
+        <Description>'@variable não é um valor logico.</Description>
+        <Solution>Verifique o valor.</Solution>
+    </Error>
+    <Error Code="7" Type="Language Exception">
+        <Description>Valor não permito para lógicos.</Description>
+        <Solution>Introduza um valor lógico.</Solution>
+    </Error>
+    <Error Code="8" Type="Language Exception">
+        <Description>Valor não permitido para reais.</Description>
+        <Solution>Introduza um valor real.</Solution>
+    </Error>
+    <Error Code="9" Type="Language Exception">
+        <Description>Valor não permitido para String.</Description>
+        <Solution>Introduza uma String.</Solution>
+    </Error>
+    <Error Code="10" Type="Exception">
+        <Description>ERRO no Operador aritmético [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="11" Type="Exception">
+        <Description>ERROR Aritmetic - aritméticos com dois parâmetros.</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="12" Type="Exception">
+        <Description>Operador [ '@variable ] não está definido.</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="13" Type="Exception">
+        <Description>Divisão por ZERO.</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="14" Type="Exception">
+        <Description>ERRO nos parâmetros do Operador Relacional [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="15" Type="Exception">
+        <Description>ERRO na prioridade do Operador Relacional [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="16" Type="Exception">
+        <Description>ERRO RELACIONAIS - relacionais com dois parâmetros.</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="17" Type="Exception">
+        <Description>ERRO no tipo de parâmetros do operador : '@variable .</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="18" Type="Exception">
+        <Description>ERRO no cálculo booleano do Operador Relacional [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="19" Type="Exception">
+        <Description>ERRO no cálculo do Operador Relacional [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="20" Type="Exception">
+        <Description>ERRO no número de parâmetros do simbolo: '@variable .</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="21" Type="Exception">
+        <Description>A Expressão [ '@variable ] está  mal construida.</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="22" Type="Exception">
+        <Description>ERRO Parâmetros de OPERADOR DESCONHECIDO [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="23" Type="Exception">
+        <Description>ERRO na Prioridade de [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="24" Type="Exception">
+        <Description>ERRO no cálculo de OPERADOR DESCONHECIDO [ '@variable ] '@variable .</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="25" Type="Exception">
+        <Description>ERRO de operador de funções desconhecido: '@variable</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="26" Type="Exception">
+        <Description>ERRO nos parâmetros das funções [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="27" Type="Exception">
+        <Description>ERRO na Prioridade das funções [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="28" Type="Exception">
+        <Description>ERRO função parâmetros errados [ '@variable ] '@variable .</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="29" Type="Exception">
+        <Description>ERRO função Desconhecida 2 [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="30" Type="Exception">
+        <Description>ERRO função Desconhecida 1 [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="31" Type="Exception">
+        <Description>ERRO nos parâmetros do Lógico [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="32" Type="Exception">
+        <Description>ERRO na prioridade do Logico [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="33" Type="Exception">
+        <Description>ERRO parâmetros lógicos errados [ '@variable ] '@variable .</Description>
+        <Solution>...</Solution>
+    </Error>
+    <Error Code="34" Type="Exception">
+        <Description>ERRO - Operador Lógico binário desconhecido [ '@variable ].</Description>
+        <Solution>...</Solution>
+    </Error>
 </Errors>

@@ -37,7 +37,11 @@ public class Preferences extends javax.swing.JFrame {
     private SpinnerNumberModel spinnerModel1;
     private SpinnerNumberModel spinnerModel2;
     private String codeStyleFilePathF = "Algol/src/AlgolXXI/Editor/CodeEditor/StyleCOST.xml";
-    private String defaultFileF = "Algol/src/AlgolXXI/Editor/CodeEditor/StyleDEF.xml";
+    private String defaultFileF = "CodeEditor/StyleCOST.xml";
+    
+    
+    
+    
     private PortugolStyle style;
 
     /** Creates new form Preferences */
@@ -83,7 +87,7 @@ public class Preferences extends javax.swing.JFrame {
         valuePreview.setBackground(new Color(255, 255, 255));
         operatorPreview.setBackground(new Color(255, 255, 255));
 
-        consolaPreview.setBackground(new Color(255, 255, 255));
+        consolaPreview2.setBackground(new Color(255, 255, 255));
         fluxPreview.setBackground(new Color(255, 255, 255));
 
         initMyComponents();
@@ -147,6 +151,8 @@ public class Preferences extends javax.swing.JFrame {
         valuePreview = new javax.swing.JTextField();
         operatorPreview = new javax.swing.JTextField();
         normalColor = new javax.swing.JTextField();
+        jLabel9 = new javax.swing.JLabel();
+        consolaColor3 = new javax.swing.JTextField();
         panel_estilo_fluxograma = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
@@ -164,7 +170,11 @@ public class Preferences extends javax.swing.JFrame {
         consolaBold = new javax.swing.JCheckBox();
         consolaItalic = new javax.swing.JCheckBox();
         consolaColor = new javax.swing.JTextField();
+        consolaPreview2 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
         consolaPreview = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        consolaColor1 = new javax.swing.JTextField();
         btDefault = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
@@ -444,7 +454,7 @@ public class Preferences extends javax.swing.JFrame {
         });
 
         normalPreview.setEditable(false);
-        normalPreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        normalPreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         normalPreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         normalPreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.normalPreview.text")); // NOI18N
         normalPreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -452,7 +462,7 @@ public class Preferences extends javax.swing.JFrame {
         normalPreview.setPreferredSize(new java.awt.Dimension(100, 23));
 
         commentPreview.setEditable(false);
-        commentPreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        commentPreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         commentPreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         commentPreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.commentPreview.text")); // NOI18N
         commentPreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -460,7 +470,7 @@ public class Preferences extends javax.swing.JFrame {
         commentPreview.setPreferredSize(new java.awt.Dimension(100, 23));
 
         quotedPreview.setEditable(false);
-        quotedPreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        quotedPreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         quotedPreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         quotedPreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.quotedPreview.text")); // NOI18N
         quotedPreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -468,7 +478,7 @@ public class Preferences extends javax.swing.JFrame {
         quotedPreview.setPreferredSize(new java.awt.Dimension(100, 23));
 
         blockPreview.setEditable(false);
-        blockPreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        blockPreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         blockPreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         blockPreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.blockPreview.text")); // NOI18N
         blockPreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -476,7 +486,7 @@ public class Preferences extends javax.swing.JFrame {
         blockPreview.setPreferredSize(new java.awt.Dimension(100, 23));
 
         typePreview.setEditable(false);
-        typePreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        typePreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         typePreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         typePreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.typePreview.text")); // NOI18N
         typePreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -484,7 +494,7 @@ public class Preferences extends javax.swing.JFrame {
         typePreview.setPreferredSize(new java.awt.Dimension(100, 23));
 
         lexiconPreview.setEditable(false);
-        lexiconPreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        lexiconPreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         lexiconPreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         lexiconPreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.lexiconPreview.text")); // NOI18N
         lexiconPreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -492,7 +502,7 @@ public class Preferences extends javax.swing.JFrame {
         lexiconPreview.setPreferredSize(new java.awt.Dimension(100, 23));
 
         valuePreview.setEditable(false);
-        valuePreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        valuePreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         valuePreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         valuePreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.valuePreview.text")); // NOI18N
         valuePreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -500,7 +510,7 @@ public class Preferences extends javax.swing.JFrame {
         valuePreview.setPreferredSize(new java.awt.Dimension(100, 23));
 
         operatorPreview.setEditable(false);
-        operatorPreview.setFont(new java.awt.Font("Monospaced", 0, 12));
+        operatorPreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         operatorPreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         operatorPreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.operatorPreview.text")); // NOI18N
         operatorPreview.setMaximumSize(new java.awt.Dimension(100, 23));
@@ -513,11 +523,32 @@ public class Preferences extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 normalColorMouseClicked(evt);
             }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                normalColorMouseExited(evt);
+            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 normalColorMouseEntered(evt);
             }
+        });
+
+        jLabel9.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.jLabel9.text")); // NOI18N
+
+        consolaColor3.setEditable(false);
+        consolaColor3.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.consolaColor3.text")); // NOI18N
+        consolaColor3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                consolaColor3MouseClicked(evt);
+            }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                normalColorMouseExited(evt);
+                consolaColor3MouseExited(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                consolaColor3MouseEntered(evt);
+            }
+        });
+        consolaColor3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                consolaColor3ActionPerformed(evt);
             }
         });
 
@@ -537,67 +568,68 @@ public class Preferences extends javax.swing.JFrame {
                     .addComponent(jLabel1)
                     .addComponent(jLabel2)
                     .addComponent(lblNormal)
-                    .addComponent(lblQuoted))
+                    .addComponent(lblQuoted)
+                    .addComponent(jLabel9))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                        .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(valueBold)
-                            .addComponent(operatorBold)
-                            .addComponent(lexiconBold)
-                            .addComponent(typeBold)
-                            .addComponent(blockBold)
-                            .addComponent(quotedBold)
-                            .addComponent(commentBold)
-                            .addComponent(normalBold))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(commentItalic)
-                            .addComponent(normalItalic)
-                            .addComponent(quotedItalic)
-                            .addComponent(blockItalic)
-                            .addComponent(typeItalic)
-                            .addComponent(lexiconItalic)
-                            .addComponent(valueItalic)
-                            .addComponent(operatorItalic))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                                .addComponent(valueColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(valuePreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                                .addComponent(operatorColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(operatorPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                                .addComponent(quotedColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(quotedPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                                .addComponent(blockColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(blockPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                                .addComponent(typeColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(typePreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                                .addComponent(lexiconColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(lexiconPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
-                                .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panel_estilo_codigoLayout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(normalColor, 0, 0, Short.MAX_VALUE))
-                                    .addComponent(commentColor, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 20, Short.MAX_VALUE))
-                                .addGap(18, 18, 18)
-                                .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(normalPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(commentPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addComponent(fontTypes, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(fontSize))
+                .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                            .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(valueBold)
+                                .addComponent(operatorBold)
+                                .addComponent(lexiconBold)
+                                .addComponent(typeBold)
+                                .addComponent(blockBold)
+                                .addComponent(quotedBold)
+                                .addComponent(commentBold)
+                                .addComponent(normalBold))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(commentItalic)
+                                .addComponent(normalItalic)
+                                .addComponent(quotedItalic)
+                                .addComponent(blockItalic)
+                                .addComponent(typeItalic)
+                                .addComponent(lexiconItalic)
+                                .addComponent(valueItalic)
+                                .addComponent(operatorItalic))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                                    .addComponent(valueColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(valuePreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                                    .addComponent(quotedColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(quotedPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                                    .addComponent(blockColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(blockPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                                    .addComponent(typeColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(typePreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                                    .addComponent(lexiconColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(lexiconPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                                    .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(normalColor, javax.swing.GroupLayout.Alignment.LEADING, 0, 1, Short.MAX_VALUE)
+                                        .addComponent(commentColor, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 20, Short.MAX_VALUE))
+                                    .addGap(18, 18, 18)
+                                    .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(normalPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(commentPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(panel_estilo_codigoLayout.createSequentialGroup()
+                                    .addComponent(operatorColor, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(operatorPreview, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(fontTypes, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(fontSize))
+                    .addComponent(consolaColor3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(346, 346, 346))
         );
         panel_estilo_codigoLayout.setVerticalGroup(
@@ -667,7 +699,11 @@ public class Preferences extends javax.swing.JFrame {
                     .addComponent(operatorItalic)
                     .addComponent(operatorColor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(operatorPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panel_estilo_codigoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel9)
+                    .addComponent(consolaColor3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(13, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.panel_estilo_codigo.TabConstraints.tabTitle"), null, panel_estilo_codigo, org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.panel_estilo_codigo.TabConstraints.tabToolTip")); // NOI18N
@@ -710,11 +746,11 @@ public class Preferences extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 fluxColorMouseClicked(evt);
             }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                fluxColorMouseEntered(evt);
-            }
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 fluxColorMouseExited(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                fluxColorMouseEntered(evt);
             }
         });
 
@@ -731,25 +767,26 @@ public class Preferences extends javax.swing.JFrame {
         panel_estilo_fluxogramaLayout.setHorizontalGroup(
             panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel_estilo_fluxogramaLayout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_estilo_fluxogramaLayout.createSequentialGroup()
+                    .addGroup(panel_estilo_fluxogramaLayout.createSequentialGroup()
+                        .addGap(32, 32, 32)
+                        .addGroup(panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel6))
+                        .addGap(37, 37, 37)
+                        .addGroup(panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(fluxTypes, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(fluxSize, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(panel_estilo_fluxogramaLayout.createSequentialGroup()
+                        .addGap(93, 93, 93)
                         .addComponent(fluxBold)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(fluxItalic)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(fluxColor, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(fluxPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_estilo_fluxogramaLayout.createSequentialGroup()
-                        .addGroup(panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel6))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
-                        .addGroup(panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(fluxSize)
-                            .addComponent(fluxTypes, 0, 254, Short.MAX_VALUE))))
-                .addContainerGap())
+                        .addComponent(fluxPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(389, Short.MAX_VALUE))
         );
         panel_estilo_fluxogramaLayout.setVerticalGroup(
             panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -762,13 +799,13 @@ public class Preferences extends javax.swing.JFrame {
                 .addGroup(panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel6)
                     .addComponent(fluxSize, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_estilo_fluxogramaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(fluxPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(fluxColor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(fluxItalic)
                     .addComponent(fluxBold))
-                .addContainerGap(228, Short.MAX_VALUE))
+                .addContainerGap(291, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.panel_estilo_fluxograma.TabConstraints.tabTitle"), null, panel_estilo_fluxograma, org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.panel_estilo_fluxograma.TabConstraints.tabToolTip")); // NOI18N
@@ -811,46 +848,105 @@ public class Preferences extends javax.swing.JFrame {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 consolaColorMouseClicked(evt);
             }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                consolaColorMouseEntered(evt);
-            }
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 consolaColorMouseExited(evt);
             }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                consolaColorMouseEntered(evt);
+            }
+        });
+        consolaColor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                consolaColorActionPerformed(evt);
+            }
         });
 
+        consolaPreview2.setEditable(false);
+        consolaPreview2.setBackground(new java.awt.Color(0, 0, 0));
+        consolaPreview2.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
+        consolaPreview2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        consolaPreview2.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.consolaPreview2.text")); // NOI18N
+        consolaPreview2.setDisabledTextColor(new java.awt.Color(204, 204, 204));
+        consolaPreview2.setMaximumSize(new java.awt.Dimension(100, 23));
+        consolaPreview2.setMinimumSize(new java.awt.Dimension(100, 23));
+        consolaPreview2.setPreferredSize(new java.awt.Dimension(100, 23));
+        consolaPreview2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                consolaPreview2ActionPerformed(evt);
+            }
+        });
+
+        jLabel7.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.jLabel7.text")); // NOI18N
+
         consolaPreview.setEditable(false);
+        consolaPreview.setBackground(new java.awt.Color(0, 0, 0));
         consolaPreview.setFont(new java.awt.Font("Monospaced", 0, 12)); // NOI18N
         consolaPreview.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         consolaPreview.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.consolaPreview.text")); // NOI18N
+        consolaPreview.setDisabledTextColor(new java.awt.Color(204, 204, 204));
         consolaPreview.setMaximumSize(new java.awt.Dimension(100, 23));
         consolaPreview.setMinimumSize(new java.awt.Dimension(100, 23));
         consolaPreview.setPreferredSize(new java.awt.Dimension(100, 23));
+        consolaPreview.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                consolaPreviewActionPerformed(evt);
+            }
+        });
+
+        jLabel8.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.jLabel8.text")); // NOI18N
+
+        consolaColor1.setEditable(false);
+        consolaColor1.setText(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.consolaColor1.text")); // NOI18N
+        consolaColor1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                consolaColor1MouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                consolaColor1MouseExited(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                consolaColor1MouseEntered(evt);
+            }
+        });
+        consolaColor1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                consolaColor1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout panel_estilo_consolaLayout = new javax.swing.GroupLayout(panel_estilo_consola);
         panel_estilo_consola.setLayout(panel_estilo_consolaLayout);
         panel_estilo_consolaLayout.setHorizontalGroup(
             panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panel_estilo_consolaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_estilo_consolaLayout.createSequentialGroup()
-                        .addComponent(consolaBold)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(consolaItalic)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(consolaColor, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(consolaPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panel_estilo_consolaLayout.createSequentialGroup()
-                        .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panel_estilo_consolaLayout.createSequentialGroup()
+                        .addGap(51, 51, 51)
+                        .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jLabel3)
                             .addComponent(jLabel4))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 44, Short.MAX_VALUE)
-                        .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(consolaSize)
-                            .addComponent(consolaTypes, 0, 254, Short.MAX_VALUE))))
-                .addContainerGap())
+                        .addGap(18, 18, 18)
+                        .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(consolaTypes, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(consolaSize, javax.swing.GroupLayout.PREFERRED_SIZE, 254, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(panel_estilo_consolaLayout.createSequentialGroup()
+                                .addComponent(consolaBold)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(consolaItalic))))
+                    .addGroup(panel_estilo_consolaLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panel_estilo_consolaLayout.createSequentialGroup()
+                                .addComponent(jLabel7)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(consolaColor, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(consolaPreview2, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(consolaPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 388, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(panel_estilo_consolaLayout.createSequentialGroup()
+                                .addComponent(jLabel8)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(consolaColor1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(389, Short.MAX_VALUE))
         );
         panel_estilo_consolaLayout.setVerticalGroup(
             panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -863,13 +959,23 @@ public class Preferences extends javax.swing.JFrame {
                 .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
                     .addComponent(consolaSize, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(consolaPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(consolaColor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(consolaItalic)
                     .addComponent(consolaBold))
-                .addContainerGap(228, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(consolaColor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(consolaPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(panel_estilo_consolaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel8)
+                    .addComponent(consolaColor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(11, 11, 11)
+                .addComponent(consolaPreview2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(125, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab(org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.panel_estilo_consola.TabConstraints.tabTitle"), null, panel_estilo_consola, org.openide.util.NbBundle.getMessage(Preferences.class, "Preferences.panel_estilo_consola.TabConstraints.tabToolTip")); // NOI18N
@@ -887,15 +993,15 @@ public class Preferences extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
                         .addComponent(btDefault, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(108, 108, 108)
                         .addComponent(btCancel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btOK, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(btOK, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(100, Short.MAX_VALUE))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -903,9 +1009,9 @@ public class Preferences extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btOK, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btCancel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btCancel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btOK, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btDefault))
                 .addContainerGap())
         );
@@ -1070,6 +1176,8 @@ private void operatorColorMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIR
 
 private void btOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btOKActionPerformed
 
+    style.setCodeBackground(consolaColor3.getBackground());
+    
     style.setFontFamily((String) fontTypes.getSelectedItem());
     style.setFontSize((Integer) fontSize.getValue());
 
@@ -1108,6 +1216,9 @@ private void btOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:ev
     style.setConsfontFamily((String) consolaTypes.getSelectedItem());
     style.setConsfontSize((Integer) consolaSize.getValue());
     style.setConsBold("" + consolaBold.isSelected());
+    style.setConsColor(consolaColor.getBackground());
+    style.setConsBackgroundColor(consolaColor.getBackground());
+    style.setConsTextColor(consolaColor1.getBackground());
     style.setConsItalic("" + consolaItalic.isSelected());
 
     style.setFluxfontFamily((String) fluxTypes.getSelectedItem());
@@ -1151,6 +1262,8 @@ private void btOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:ev
             ((ProgramaTopComponent) TopComponent.getRegistry().getOpened().toArray()[i]).newColoringSettings(style);
             ((ProgramaTopComponent) TopComponent.getRegistry().getOpened().toArray()[i]).setFontFluxogramas(new Font(style.getFluxfontFamily(), fontef, style.getFluxfontSize()));
             ((ProgramaTopComponent) TopComponent.getRegistry().getOpened().toArray()[i]).setFontConsola(new Font(style.getConsfontFamily(), fonte, style.getConsfontSize()));
+            ((ProgramaTopComponent) TopComponent.getRegistry().getOpened().toArray()[i]).setColorConsola(style.getConsBackgroundColor(),style.getConsTextColor());
+            ((ProgramaTopComponent) TopComponent.getRegistry().getOpened().toArray()[i]).setColorCodigo(style.getCodeBackground());
         }
     }
 
@@ -1290,6 +1403,57 @@ private void fluxColorMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:ev
 setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
 }//GEN-LAST:event_fluxColorMouseExited
 
+    private void consolaPreview2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consolaPreview2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_consolaPreview2ActionPerformed
+
+    private void consolaColorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consolaColorActionPerformed
+
+    }//GEN-LAST:event_consolaColorActionPerformed
+
+    private void consolaPreviewActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consolaPreviewActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_consolaPreviewActionPerformed
+
+    private void consolaColor1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_consolaColor1MouseClicked
+       Color newColor = JColorChooser.showDialog(this, "Escolha a nova cor", consolaColor.getBackground());
+    if (newColor != null) {
+        consolaColor1.setBackground(newColor);
+        updateConsolaPreview2();
+    }
+    }//GEN-LAST:event_consolaColor1MouseClicked
+
+    private void consolaColor1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_consolaColor1MouseExited
+        setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+    }//GEN-LAST:event_consolaColor1MouseExited
+
+    private void consolaColor1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_consolaColor1MouseEntered
+        setCursor(new Cursor(Cursor.HAND_CURSOR));
+    }//GEN-LAST:event_consolaColor1MouseEntered
+
+    private void consolaColor1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consolaColor1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_consolaColor1ActionPerformed
+
+    private void consolaColor3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_consolaColor3MouseClicked
+       Color newColor = JColorChooser.showDialog(this, "Escolha a nova cor", consolaColor.getBackground());
+    if (newColor != null) {
+        consolaColor3.setBackground(newColor);
+    }
+    }//GEN-LAST:event_consolaColor3MouseClicked
+
+    private void consolaColor3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_consolaColor3MouseExited
+        setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
+    }//GEN-LAST:event_consolaColor3MouseExited
+
+    private void consolaColor3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_consolaColor3MouseEntered
+        setCursor(new Cursor(Cursor.HAND_CURSOR));
+    }//GEN-LAST:event_consolaColor3MouseEntered
+
+    private void consolaColor3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_consolaColor3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_consolaColor3ActionPerformed
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JCheckBox blockBold;
     private javax.swing.JTextField blockColor;
@@ -1304,8 +1468,11 @@ setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
     private javax.swing.JTextField commentPreview;
     private javax.swing.JCheckBox consolaBold;
     private javax.swing.JTextField consolaColor;
+    private javax.swing.JTextField consolaColor1;
+    private javax.swing.JTextField consolaColor3;
     private javax.swing.JCheckBox consolaItalic;
     private javax.swing.JTextField consolaPreview;
+    private javax.swing.JTextField consolaPreview2;
     private javax.swing.JSpinner consolaSize;
     private javax.swing.JComboBox consolaTypes;
     private javax.swing.JCheckBox fluxBold;
@@ -1322,6 +1489,9 @@ setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JLabel lblBLock;
     private javax.swing.JLabel lblComment;
@@ -1424,6 +1594,7 @@ setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
         updateValuePreview();
         updateOperatorPreview();
         updateConsolaPreview();
+        updateConsolaPreview2();
         updateFluxPreview();
     }
 
@@ -1568,7 +1739,7 @@ setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
             font = font.deriveFont(Font.ITALIC + Font.BOLD);
         }
         consolaPreview.setFont(font);
-        consolaPreview.setForeground(consolaColor.getBackground());
+        consolaPreview.setBackground(consolaColor.getBackground());
     }
     
     private void updateFluxPreview() {
@@ -1585,5 +1756,21 @@ setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
         }
         fluxPreview.setFont(font);
         fluxPreview.setForeground(fluxColor.getBackground());
+    }
+
+    private void updateConsolaPreview2() {
+         String fType = (String) consolaTypes.getSelectedItem();
+        int fSize = (Integer) consolaSize.getValue();
+
+        Font font = new Font(fType, Font.PLAIN, fSize);
+        if (consolaBold.isSelected() && !consolaItalic.isSelected()) {
+            font = font.deriveFont(Font.BOLD);
+        } else if (!consolaBold.isSelected() && consolaItalic.isSelected()) {
+            font = font.deriveFont(Font.ITALIC);
+        } else if (consolaBold.isSelected() && consolaItalic.isSelected()) {
+            font = font.deriveFont(Font.ITALIC + Font.BOLD);
+        }
+        consolaPreview2.setFont(font);
+        consolaPreview2.setForeground(consolaColor1.getBackground());    
     }
 }
